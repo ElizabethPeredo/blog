@@ -1,0 +1,130 @@
+/* ====================
+    * CARD POST *
+==================== */
+:root {
+    --heigh-min-post: 25rem;
+    --heigh-max-post: auto;
+    --width-post: 18rem;
+    --heigh-img: 7rem;
+  }
+  
+  .card-post {
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    min-width: var(--width-post);
+    max-width: var(--width-post);
+    min-height: var(--heigh-min-post);
+    max-height: var(--heigh-max-post);
+  
+    line-height: 1rem;
+    position: relative;
+    margin: 1.25rem 0.75rem;
+    background: var(--white);
+    transition: all 300ms ease-in-out;
+  }
+  
+  .card-post * {
+    color: var(--black);
+  }
+  
+  .card-post__top {
+    margin: 0em;
+    padding: 0em;
+  }
+  .card-post__top img,
+  .card-post__img {
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    height: var(--heigh-img);
+    min-height:var(--heigh-img);
+    max-height: var(--heigh-img);
+    top: 0;
+    object-fit: cover;
+  }
+  
+  .card-post__info {
+    position: relative;
+    padding: 0.75rem;
+    transition: all 200ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-post__about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+  }
+  
+  .card-post__tag {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-post__tag a {
+    width: auto;
+    padding: 0.2rem 0.5rem;
+    margin: .1rem;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: var(--gray);
+    color: var(--white);
+  }
+  
+  .card-post__title {
+    z-index: 10;
+    transition: all 350ms ease-in-out;
+    color: var(--black);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+  
+  .card-post__creator {
+    padding-bottom: 0.75rem;
+    transition: all 250ms ease-in-out;
+    text-align: right;
+  }
+  
+  .card-post__money {
+    padding-bottom: 0.75rem;
+    transition: all 250ms ease-in-out;
+    text-align: right;
+    font-size: 1.2rem;
+  }
+  
+  .card-post__money a {
+    background: var(--red);
+    color: var(--white);
+    padding: 0.3rem;
+    border-radius: var(--border-radius);
+  }
+  
+  .card-post__tag a:hover,
+  .card-post__money a:hover {
+    background: var(--gray);
+    color: var(--white);
+  }
+  .container__post {
+    width: 100%;
+    /*height: 100vh;*/
+    transition: all 200ms ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--width-post), 1fr));
+    justify-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      --heigh-max-post: 25rem;
+      --width-post: 25rem;
+      --heigh-img: 10rem;
+    }
+  }

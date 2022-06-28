@@ -1,0 +1,1114 @@
+/* =================
+*SETTINGS*
+=================*/
+@import "root.css";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+* {
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+/* =================
+*GENERAL STYLES*
+=================*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 100%;
+  line-height: var(--line-heigh);
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  counter-reset: h1;
+  background:var(--white);
+}
+
+pre::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+pre::-webkit-scrollbar,
+table::-webkit-scrollbar {
+  height: 0.8rem;
+}
+
+pre::-webkit-scrollbar-track,
+table::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: var(--color2);
+}
+
+pre::-webkit-scrollbar-thumb,
+table::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: var(--color1);
+}
+
+/* ====================
+    * THEME *
+==================== */
+
+.th-blue {
+  background: var(--blue);
+}
+
+.th-light-blue {
+  background: var(--light-blue);
+}
+
+.th-red {
+  background: var(--red);
+}
+
+.th-green {
+  background: var(--green);
+}
+
+.th-yellow {
+  background: var(--yellow);
+}
+
+.th-pink {
+  background: var(--pink);
+}
+
+.th-purple {
+  background: var(--purple);
+}
+
+.th-orange {
+  background: var(--orange);
+}
+
+.background-body {
+  background-color: var(--background-body);
+}
+
+.theme-dark {
+  --white: #000;
+  --black: #fff;
+  --background-body: black;
+}
+
+#dark {
+  padding: 0em;
+  margin: 0em;
+  cursor: pointer;
+}
+
+#dark:hover {
+  background: transparent;
+}
+
+/* ====================
+    * CONTAINERS *
+==================== */
+.container {
+  padding: 2rem;
+  margin-right: 5rem;
+}
+
+.container__large {
+  width: 100%;
+  margin: 0em auto;
+  padding: 1rem;
+}
+
+.container__medium {
+  max-width: 90%;
+  width: var(--width);
+  margin: 0em auto;
+  padding: 1rem;
+}
+
+.container__small {
+  max-width: 80%;
+  width: var(--width);
+  overflow: hidden;
+  margin: 0em auto;
+  padding: 1rem 5rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+/* ====================
+    * TEXT *
+==================== */
+mark,
+.btn,
+.btn-post,
+button,
+figcaption,
+b,
+strong,
+select,
+datalist,
+label,
+p,
+a,
+ol,
+ul,
+ol,
+li,
+dl,
+pre,
+table,
+blockquote {
+  font-size: var(--font-size);
+  color: var(--black);
+  /*text-align: justify;*/
+}
+
+br,
+p,
+.h1,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+summary.h1,
+summary.h2,
+summary.h3 {
+  /*padding: 0.5rem;*/
+  margin: 0.5rem;
+}
+
+/* *Link a* */
+
+a,
+link {
+  color: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+link:hover,
+a:hover,
+a:active {
+  /**border-bottom: 0.1em solid var(--color1);**/
+  color: var(--color1);
+}
+
+ul,
+ol,
+dl,
+pre,
+table,
+blockquote {
+  margin-bottom: 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  background-image: linear-gradient(180deg, #eee 50%, #fff 50%);
+  background-size: 100% 48px;
+  background-position: 0 14px;
+  padding: 0!important;
+  padding: 0!important;
+  line-height: 1.38rem;
+}
+
+hr {
+  border: 0;
+  border-top: 0.5em solid var(--color1);
+  margin: 1.25em 0;
+  width: 5em;
+}
+
+figcaption,
+b,
+strong,
+.h1,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+summary.h1,
+summary.h2,
+summary.h3 {
+  color: var(--color1);
+  margin-left: 0rem;
+  font-family: var(--font-subtitle);
+  font-weight: 900;
+}
+
+h1,
+summary.h1,
+.h1 {
+  font-size: 2.2rem;
+  font-family: var(--font-title);
+  color: black;
+}
+
+h2,
+summary.h2 {
+  font-size: 1.8rem;
+}
+
+h3,
+summary.h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.35rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+ol li::marker,
+ul li::marker {
+  color: var(--color1);
+  padding-left: 0.5em;
+  font-weight: bold;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+img,
+figure img {
+  padding: 0.5rem;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.txt-vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+/* ====================
+    * VISIBLE *
+==================== */
+.visible {
+  visibility: visible;
+  display: block !important;
+}
+
+.invisible {
+  display: none;
+  visibility: hidden;
+}
+
+/* ====================
+    * ARTICLE *
+==================== */
+
+article {
+  padding: 1rem 3rem;
+  margin: 1rem 0rem;
+  background: var(--white);
+  color: var(--black);
+  margin-bottom: 2em;
+  box-shadow: var(--box-shadow);
+}
+
+article.bottom {
+  border-radius: var(--border-radius-no-top);
+  border-top: 0em;
+  margin-top: 0em;
+}
+
+article.top {
+  border-radius: var(--border-radius-no-bottom);
+  margin-bottom: 0em;
+  border-bottom: none;
+  /*background-image: var(--background-img;*/
+  background-color: var(--color2);
+}
+
+article .code {
+  border-radius: 1em 1em 0em 0em;
+  border: none;
+  width: auto;
+  margin: 1em 0em 0em 0em;
+}
+
+/* ====================
+    * CARDS *
+==================== */
+
+blockquote {
+  margin: 1rem 0rem;
+  border-left: 16px solid var(--color1);
+  background: var(--light-gray);
+  color: black;
+  padding: 1rem;
+}
+
+blockquote cite {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: right;
+}
+
+blockquote>* {
+  color: black;
+}
+
+/* ====================
+    * CODE, MARK *
+==================== */
+mark,
+kbd,
+samp,
+small,
+span {
+  font-weight: bold;
+  padding: 0.1em;
+  margin: 0em;
+  background: var(--light-gray);
+  border-radius: 2px;
+  color: black;
+}
+
+code,
+code * {
+  font-family: var(--font-code);
+  font-size: 1.2rem;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  padding: 0em !important;
+}
+
+kbd {
+  border: 0.1em solid var(--gray);
+}
+
+span {
+  padding: 0em;
+  color: var(--color1);
+  background: transparent;
+}
+
+meter,
+progress {
+  width: auto;
+  height: 2.5em;
+  display: block;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: var(--color1);
+}
+
+/* ====================
+    * MARGIN AND PADDING*
+==================== */
+
+.padding {
+  padding: 2em;
+}
+
+.margin {
+  margin: 2em;
+}
+
+.margin-top {
+  margin-top: 2em;
+}
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0em;
+}
+
+.no-margin-top {
+  margin-top: 0em;
+}
+
+/* =================
+*TABLE*
+=================*/
+
+table {
+  border-collapse: collapse;
+  color: var(--black);
+  display: block;
+  overflow-x: auto;
+  line-height: 1rem;
+  margin: 0.5em 0em;
+}
+
+table ul {
+  padding-left: 1em;
+  margin: 0em;
+}
+
+table thead,
+table tfoot {
+  font-size: var(--font-size);
+}
+
+table td,
+table th {
+  border: 1px solid var(--gray);
+  padding: 0.3em;
+}
+
+table td,
+table td * {
+  text-align: left;
+}
+
+table th {
+  background: var(--color1);
+  color: var(--white);
+  text-align: center;
+}
+
+table tr:hover {
+  background: var(--light-gray);
+  color: black;
+}
+
+/* =================
+*BUTTON*
+=================*/
+
+button,
+.btn {
+  cursor: pointer;
+  background: var(--color1);
+  color: var(--color11);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius:1rem;
+  margin: 1rem auto;
+  display: inline-block;
+  border: 0.1em solid var(--color11);
+}
+
+.btn-post {
+  cursor: pointer;
+  background: var(--color1);
+  color: var(--color11);
+  font-size: 1rem;
+  padding: 0.3em;
+  margin-bottom: 1rem;
+
+}
+
+button.circle {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+button:hover,
+.btn:hover,
+.btn-post:hover {
+    box-shadow: var(--black) 0px 7px 0px;
+    transform: translateY(-15px);
+    color: var(--color11);
+}
+
+/* =================
+*FORMS*
+=================*/
+
+form,
+fieldset {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+form>*,
+fieldset>* {
+  padding: 0.5rem;
+  font-size: var(--font-size);
+  margin: 0.2rem 0.5rem;
+  color: var(--black);
+  background: var(--white);
+}
+
+form label,
+label {
+  font-weight: bold;
+}
+
+fieldset {
+  border: 0.2em solid var(--color1);
+}
+
+legend {
+  background-color: var(--color1);
+  color: var(--white);
+  padding: 0.5em;
+}
+
+input,
+textarea {
+  border: 0.1rem solid var(--color1);
+}
+
+input:hover {
+  border: 0.1rem solid var(--color2);
+}
+
+select,
+datalist {
+  background-color: var(--color2);
+  color: black;
+  border: 0.1em solid var(--color1);
+  border-radius: 0;
+  margin: 0 0.5em;
+  border: 0.1em solid var(--color1);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+datalist:after,
+select:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+}
+
+option {
+  padding: 2rem;
+}
+
+progress[value] {
+  appearance: none;
+  margin: 0 0 1.5em;
+}
+
+progress[value]::-webkit-progress-bar {
+  background: var(--color2);
+  border: 1em;
+}
+
+progress[value]::-webkit-progress-value {
+  position: relative;
+  background: var(--color1);
+  animation: animate-stripes 5s linear infinite;
+}
+
+/* =================
+*COLORS*
+=================*/
+
+/**BACKGROUND**/
+color1,
+.color1,
+.hover-color1:hover {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 0.1em;
+  font-weight: 500;
+}
+
+color2,
+.color2,
+.hover-color2:hover {
+  color: black;
+  background-color: var(--color2);
+  padding: 0.1em;
+}
+
+white,
+.white,
+.hover-white:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+black,
+.black,
+.hover-black:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+blue,
+.blue,
+.hover-blue:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+light-blue,
+.light-blue,
+.hover-light-blue:hover {
+  color: var(--black);
+  background-color: var(--light-blue);
+}
+
+green,
+.green,
+.hover-green:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+teal,
+.teal,
+.hover-teal:hover {
+  color: var(--white);
+  background-color: var(--teal);
+}
+
+yellow,
+.yellow,
+.hover-yellow:hover {
+  color: var(--black);
+  background-color: var(--yellow);
+}
+
+red,
+.red,
+.hover-red:hover {
+  color: white;
+  background-color: var(--red);
+}
+
+pink.pink,
+.hover-pink:hover {
+  color: white;
+  background-color: var(--pink);
+}
+
+purple.purple,
+.hover-purple:hover {
+  color: white;
+  background-color: var(--purple);
+}
+
+orange.orange,
+.hover-orange:hover {
+  color: white;
+  background-color: var(--orange);
+}
+
+brown.brown,
+.hover-brown:hover {
+  color: white;
+  background-color: var(--brown);
+}
+
+grey.grey,
+.hover-grey:hover,
+.gray,
+.hover-gray:hover {
+  color: black;
+  background-color: var(--gray);
+}
+
+pale-blue,
+.pale-blue,
+.hover-blue:hover {
+  color: black;
+  background-color: var(--pale-blue);
+}
+
+pale-green,
+.pale-green,
+.hover-green:hover {
+  color: black;
+  background-color: var(--pale-green);
+}
+
+pale-teal,
+.pale-teal,
+.hover-teal:hover {
+  color: black;
+  background-color: var(--pale-teal);
+}
+
+.pale-yellow,
+.hover-yellow:hover {
+  color: black;
+  background-color: var(--pale-yellow);
+}
+
+.pale-red,
+.hover-red:hover {
+  color: black;
+  background-color: var(--pale-red);
+}
+
+.pale-pink,
+.hover-pink:hover {
+  color: black;
+  background-color: var(--pale-pink);
+}
+
+.pale-purple,
+.hover-purple:hover {
+  color: black;
+  background-color: var(--pale-purple);
+}
+
+.pale-orange,
+.hover-orange:hover {
+  color: black;
+  background-color: var(--pale-orange);
+}
+
+.pale-brown,
+.hover-brown:hover {
+  color: black;
+  background-color: var(--pale-brown);
+}
+
+.light-gray,
+.hover-light-gray:hover {
+  color: black;
+  background-color: var(--light-gray);
+}
+
+/**TEXT**/
+
+.text-white,
+.text-hover-white:hover {
+  color: var(--white);
+}
+
+.text-black,
+.text-hover-black:hover {
+  color: var(--black);
+}
+
+.text-blue,
+.text-hover-blue:hover {
+  color: var(--blue);
+}
+
+.text-light-blue,
+.text-hover-light-blue:hover {
+  color: var(--light-blue);
+}
+
+.text-green,
+.text-hover-green:hover {
+  color: var(--green);
+}
+
+.text-teal,
+.text-hover-teal:hover {
+  color: var(--teal);
+}
+
+.text-yellow,
+.text-hover-yellow:hover {
+  color: var(--yellow);
+}
+
+.text-red,
+.text-hover-red:hover {
+  color: var(--red);
+}
+
+.text-pink,
+.text-hover-pink:hover {
+  color: var(--pink);
+}
+
+.text-purple,
+.text-hover-purple:hover {
+  color: var(--purple);
+}
+
+.text-orange,
+.text-hover-orange:hover {
+  color: var(--orange);
+}
+
+.text-brown,
+.text-hover-brown:hover {
+  color: var(--brown);
+}
+
+.text-gray,
+.text-hover-gray:hover {
+  color: var(--gray);
+}
+
+.text-pale-blue,
+.text-hover-blue:hover {
+  color: var(--pale-blue);
+}
+
+.text-pale-green,
+.text-hover-green:hover {
+  color: var(--pale-green);
+}
+
+.text-pale-teal,
+.text-hover-teal:hover {
+  color: var(--pale-teal);
+}
+
+.text-pale-yellow,
+.text-hover-yellow:hover {
+  color: var(--pale-yellow);
+}
+
+.text-pale-red,
+.text-hover-red:hover {
+  color: var(--pale-red);
+}
+
+.text-pale-pink,
+.text-hover-pink:hover {
+  color: var(--pale-pink);
+}
+
+.text-pale-purple,
+.text-hover-purple:hover {
+  color: var(--pale-purple);
+}
+
+.text-pale-orange,
+.text-hover-orange:hover {
+  color: var(--pale-orange);
+}
+
+.text-pale-brown,
+.text-hover-brown:hover {
+  color: var(--pale-brown);
+}
+
+.text-light-gray,
+.text-hover-light-gray:hover {
+  color: var(--light-gray);
+}
+
+/**BORDER**/
+.border-color1,
+.border-hover-color1:hover {
+  border: solid 0.2em var(--color1);
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.border-white,
+.border-hover-white:hover {
+  border: solid 0.3em var(--white);
+}
+
+.border-black,
+.border-hover-black:hover {
+  border: solid 0.3em var(--black);
+}
+
+.border-blue,
+.border-hover-blue:hover {
+  border: solid 0.3em var(--blue);
+}
+
+.border-light-blue,
+.border-hover-light-blue:hover {
+  border: solid 0.3em var(--light-blue);
+}
+
+.border-green,
+.border-hover-green:hover {
+  border: solid 0.3em var(--green);
+}
+
+.border-teal,
+.border-hover-teal:hover {
+  border: solid 0.3em var(--teal);
+}
+
+.border-yellow,
+.border-hover-yellow:hover {
+  border: solid 0.3em var(--yellow);
+}
+
+.border-red,
+.border-hover-red:hover {
+  border: solid 0.3em var(--red);
+}
+
+.border-pink,
+.border-hover-pink:hover {
+  border: solid 0.3em var(--pink);
+}
+
+.border-purple,
+.border-hover-purple:hover {
+  border: solid 0.3em var(--purple);
+}
+
+.border-orange,
+.border-hover-orange:hover {
+  border: solid 0.3em var(--orange);
+}
+
+.border-brown,
+.border-hover-brown:hover {
+  border: solid 0.3em var(--brown);
+}
+
+.border-gray,
+.border-hover-gray:hover {
+  border: solid 0.3em var(--gray);
+}
+
+.border-pale-blue,
+.border-hover-blue:hover {
+  border: solid 0.3em var(--pale-blue);
+}
+
+.border-pale-green,
+.border-hover-green:hover {
+  border: solid 0.3em var(--pale-green);
+}
+
+.border-pale-teal,
+.border-hover-teal:hover {
+  border: solid 0.3em var(--pale-teal);
+}
+
+.border-pale-yellow,
+.border-hover-yellow:hover {
+  border: solid 0.3em var(--pale-yellow);
+}
+
+.border-pale-red,
+.border-hover-red:hover {
+  border: solid 0.3em var(--pale-red);
+}
+
+.border-pale-pink,
+.border-hover-pink:hover {
+  border: solid 0.3em var(--pale-pink);
+}
+
+.border-pale-purple,
+.border-hover-purple:hover {
+  border: solid 0.3em var(--pale-purple);
+}
+
+.border-pale-orange,
+.border-hover-orange:hover {
+  border: solid 0.3em var(--pale-orange);
+}
+
+.border-pale-brown,
+.border-hover-brown:hover {
+  border: solid 0.3em var(--pale-brown);
+}
+
+.border-light-gray,
+.border-hover-light-gray:hover {
+  border: solid 0.3em var(--light-gray);
+}
+
+/* =================
+*RESPONSIVE*
+=================*/
+
+@media (max-width: 1200px) {
+  :root {
+    --font-size: 1rem;
+  }
+
+  .container__small,
+  .container__medium,
+  .container__slide {
+    min-width: 100%;
+    padding: 0 0.5em;
+    /*margin: 0em auto !important;*/
+  }
+
+  .container {
+    min-width: 100%;
+    padding: 2em;
+    /*margin: 0em auto !important;*/
+  }
+
+  article {
+    box-shadow: none;
+    padding: 0.5rem;
+    margin: 0rem;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .container__small,
+  .container__medium,
+  .container__slide {
+    padding: 0 0.1em;
+  }
+}

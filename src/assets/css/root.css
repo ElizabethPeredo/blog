@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* =================
+*VARIABLES*
+=================*/
+:root {
+
+  /* =================
+*PRINCIPAL COLORS*
+=================*/
+  --white: #181818;
+  --black: #fff;
+  /*
+  --white: #fff;
+  --black: #000000;
+  */
+  --gray: rgb(150, 147, 147);
+  --light-gray: rgb(235, 230, 230);
+
+  /* =================
+* COLORS *
+=================*/
+  --blue: #2145e9;
+  --light-blue: #00a6e7;
+  --green: #49c333;
+  --teal: #0da6b4;
+  --yellow: rgb(241, 188, 11);
+  --red: #e01313;
+  --pink: #c50094;
+  --purple: #a434ff;
+  --orange: #f05d09;
+  --brown: #724000;
+
+  --pink-old: rgb(242, 144, 232);
+  --purple-old: rgb(108, 100, 206);
+  --teal-old: rgb(56, 179, 209);
+  /* =================
+* PAlE COLORS *
+=================*/
+  --pale-blue: #a9ccf6;
+  --pale-light-blue: #bdeef6;
+  --pale-green: #b8fdb8;
+  --pale-teal: #9af8d1;
+  --pale-yellow: #fff1a0;
+  --pale-red: #ffa8a8;
+  --pale-pink: #f1a2de;
+  --pale-purple: #cda2f1;
+  --pale-orange: #fab486;
+  --pale-brown: #885a3b;
+
+  /* =================
+* EXTRA COLORS *
+=================*/
+  --shadow: rgba(83, 81, 81, 0.226);
+  --error: #e74c3c;
+  --success: #2ecc71;
+
+  /* =================
+* BACKGROUND *
+=================*/
+  --background-img: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  --background-body: var(--white);
+  --background-nav: var(--white);
+
+  /* =================
+* BORDER *
+=================*/
+  --border-container: 0.1em solid var(--black);
+  --border-radius: 1em;
+  --border-radius-no-top: 0em 0em 0.5em 0.5em;
+  --border-radius-no-bottom: 0.5em 0.5em 0em 0em;
+  --box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  --box-shadow-colors: blue 0px 0px 0px 2px inset,
+    rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px,
+    rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px,
+    rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px,
+    rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+  --box-shadow-lines: 0.5rem 0.5rem --color1, -0.5rem -0.5rem --black;
+  --box-shadow-text: 0.2rem 0.2rem var(--black);
+  --box-shadow-text2: box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+  ;
+
+  /* =================
+* FONTS *
+=================*/
+  --font-title: "Glory", cursive;
+  --font-subtitle: "Glory", cursive;
+  --font-body: "Poppins", sans-serif;
+  --font-banner: "Josefin Sans", cursive;
+  --font-logo: "Glory", cursive;
+  --font-code: 'Fira Code', monospace;
+  --font-size: 1.2rem;
+
+
+  /* =================
+* SIZE *
+=================*/
+  --width: 1200px;
+  --line-heigh: 1.75rem;
+  --heigh-banner: 20rem;
+
+  /* =================
+* HOVER *
+=================*/
+  --link-hover: inset 0 -0.1em 0 currentColor;
+
+  /* =================
+* @MEDIA *
+=================*/
+  --tablet: 1200px;
+  --phone: 850px;
+
+  /* =================
+* COLOR *
+=================*/
+  --color1: var(--teal-old);
+  --color2: var(--gray);
+  --color11: white;
+  --color22: white;
+  --color-nav: var(--black);
+  /* *BACKGROUND* */
+  --bg-navbar: var(--white);
+  --bg-header: #1b1b20;
+  --bg-footer: #1b1b20;
+  --bg_banner: var(--white);
+}
+
+/*====================
+* THEME *
+==================== */
+.bg-color1,
+.hover_bg-color1:hover {
+  background: var(--color1);
+  color: black;
+}
+
+.bg-color2,
+.hover_bg-color2:hover {
+  background: var(--color2);
+}
+
+.bg-navbar {
+  background-color: var(--bg-navbar);
+  color: white;
+}
+
+.bg-header {
+  background-color: var(--bg-header);
+  color: white;
+}
+
+.bg-footer {
+  background-color: var(--bg-footer);
+  color: white;
+}
+
+.text-color1,
+.hover_text-color1:hover {
+  color: var(--color1);
+}
+
+.text-color2,
+.hover_text-color2:hover {
+  color: var(--color2);
+}
+
+/* ====================
+    * THEME *
+==================== */
+/*.theme-book {
+  --font-title: "Title", cursive;
+  --font-subtitle: "Subtitle", cursive;
+  --font-body: "Body", sans-serif;
+  --font-banner: "Banner", cursive;
+}*/
+.theme-blue {
+  --color1: var(--blue);
+  --color2: var(--pale-blue);
+}
+
+.theme-light-blue {
+  --color1: var(--light-blue);
+  --color2: var(--pale-light-blue);
+}
+
+.theme-red {
+  --color1: var(--red);
+  --color2: var(--pale-red);
+}
+
+.theme-green {
+  --color1: var(--green);
+  --color2: var(--pale-green);
+}
+
+.theme-teal {
+  --color1: var(--teal);
+  --color2: var(--pale-teal);
+}
+
+.theme-yellow {
+  --color1: var(--yellow);
+  --color2: var(--pale-yellow);
+}
+
+.theme-pink {
+  --color1: var(--pink);
+  --color2: var(--pale-pink);
+}
+
+.theme-purple {
+  --color1: var(--purple);
+  --color2: var(--pale-purple);
+}
+
+.theme-orange {
+  --color1: var(--orange);
+  --color2: var(--pale-orange);
+}
+
+.background-body {
+  background-color: var(--background-body);
+}
+
+.theme-dark {
+  --white: #000;
+  --black: #fff;
+  --background-body: black;
+}
+
+#dark {
+  padding: 0em;
+  margin: 0em;
+  cursor: pointer;
+}
+
+#dark:hover {
+  background: transparent;
+}
