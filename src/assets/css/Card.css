@@ -21,10 +21,11 @@
     margin: 1.25rem 0.75rem;
     background: var(--white);
     transition: all 300ms ease-in-out;
+    color: var(--color11);
   }
   
   .card-post * {
-    color: var(--black);
+    color: var(--color11);
   }
   
   .card-post__top {
@@ -74,13 +75,13 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     background: var(--gray);
-    color: var(--white);
+    color: var(--color11);
   }
   
   .card-post__title {
     z-index: 10;
     transition: all 350ms ease-in-out;
-    color: var(--black);
+    color: var(--color22);
     font-weight: bolder;
     text-align: center;
     font-size: 1.5rem;
@@ -102,7 +103,7 @@
   
   .card-post__money a {
     background: var(--red);
-    color: var(--white);
+    color: var(--color11);
     padding: 0.3rem;
     border-radius: var(--border-radius);
   }
@@ -110,7 +111,7 @@
   .card-post__tag a:hover,
   .card-post__money a:hover {
     background: var(--gray);
-    color: var(--white);
+    color: var(--color11);
   }
   .container__post {
     width: 100%;

@@ -221,7 +221,7 @@ link:hover,
 a:hover,
 a:active {
   /**border-bottom: 0.1em solid var(--color1);**/
-  color: var(--color1);
+  color: var(--color11);
 }
 
 ul,
@@ -271,7 +271,7 @@ h6,
 summary.h1,
 summary.h2,
 summary.h3 {
-  color: var(--color1);
+  color: var(--color11);
   margin-left: 0rem;
   font-family: var(--font-subtitle);
   font-weight: 900;
@@ -282,7 +282,7 @@ summary.h1,
 .h1 {
   font-size: 2.2rem;
   font-family: var(--font-title);
-  color: black;
+  color: var(--color11);
 }
 
 h2,
@@ -309,7 +309,7 @@ h6 {
 
 ol li::marker,
 ul li::marker {
-  color: var(--color1);
+  color: var(--color11);
   padding-left: 0.5em;
   font-weight: bold;
 }
@@ -391,7 +391,7 @@ blockquote {
   margin: 1rem 0rem;
   border-left: 16px solid var(--color1);
   background: var(--light-gray);
-  color: black;
+  color: var(--color11);
   padding: 1rem;
 }
 
@@ -419,7 +419,7 @@ span {
   margin: 0em;
   background: var(--light-gray);
   border-radius: 2px;
-  color: black;
+  color: var(--color11);
 }
 
 code,
@@ -439,7 +439,7 @@ kbd {
 
 span {
   padding: 0em;
-  color: var(--color1);
+  color: var(--color11);
   background: transparent;
 }
 
@@ -523,7 +523,7 @@ table th {
 
 table tr:hover {
   background: var(--light-gray);
-  color: black;
+  color: var(--color11);
 }
 
 /* =================
@@ -539,7 +539,6 @@ button,
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
   border-radius:1rem;
   margin: 1rem auto;
   display: inline-block;
@@ -621,7 +620,7 @@ input:hover {
 select,
 datalist {
   background-color: var(--color2);
-  color: black;
+  color: var(--color22);
   border: 0.1em solid var(--color1);
   border-radius: 0;
   margin: 0 0.5em;
@@ -669,7 +668,7 @@ progress[value]::-webkit-progress-value {
 color1,
 .color1,
 .hover-color1:hover {
-  color: var(--color2);
+    color: var(--color22);
   background-color: var(--color1);
   padding: 0.1em;
   font-weight: 500;
@@ -678,7 +677,7 @@ color1,
 color2,
 .color2,
 .hover-color2:hover {
-  color: black;
+    color: var(--color22);
   background-color: var(--color2);
   padding: 0.1em;
 }
