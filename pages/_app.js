@@ -1,6 +1,7 @@
 import Navbar from '../src/components/Header/Navbar/Navbar';
+import Footer from '../src/components/Footer/Footer';
 import  css from '../src/assets/css/global.css';
-import Banner from '../src/components/Header/Banner/Banner';
+
 
 
 function MyApp({ Component, pageProps }) {
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      <Footer/>
     </>)
 }
 

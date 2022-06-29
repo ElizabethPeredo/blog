@@ -7,14 +7,14 @@ export default function Banner() {
             <div className="banner__container-content">
                 <div className="banner__container-content--text">
                     <h1>My name is <span>Elizabeth Peredo</span></h1>
-                    <p>
+                    <p>lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor sit am lorem ipsum dolor sit am lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor sit am
                     </p>
                     <Link href='/page/contacto'>
                         <a className="btn">Contacto</a>
                     </Link>
                 </div>
                 <div className="banner__container-content--img">
-                    <img src="https://image.spreadshirtmedia.net/image-server/v1/designs/16154699,width=178,height=178,colors%5B0%5D=FF3484.png" alt="" />
+                    <img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg" alt="" />
                 </div>
             </div>
         </section>

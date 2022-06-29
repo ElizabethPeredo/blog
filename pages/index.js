@@ -6,26 +6,26 @@ import Card from '../src/components/Card/Card'
 import CardContainer from '../src/containers/CardContainer/CardContainer'
 import { sortByDate } from '../src/utils'
 
-export default function Home({ posts }) {
+export default function Post({ posts }) {
   return (
     <>
       <Head>
         <title>Elizabeth Peredo</title>
       </Head>
 
-        <CardContainer>
-          {posts.map((post, index) => (
-            <Card key={index} post={post} />
-          ))}
-        </CardContainer>
+      <CardContainer>
+        {posts.map((post, index) => (
+          <Card key={index} post={post} />
+        ))}
+      </CardContainer>
     </>
-        )
+  )
 }
 
-        export async function getStaticProps() {
+export async function getStaticProps() {
   //**GET FILES FROM THE POST DIR (FOLDER) */
   const files = fs.readdirSync(path.join('posts'))
-        console.log(files)
+  console.log(files)
 
   //**GET SLUG AND FRONTMATTER FROM POSTS */
   const posts = files.map((filename) => {
@@ -33,24 +33,24 @@ export default function Home({ posts }) {
     //**CREATE SLUG */
     const slug = filename.replace('.md', '')
 
-        //**GET FRONTMATTER */
-        const markdownWithMeta = fs.readFileSync(
-        path.join('posts', filename),
-        'utf-8'
-        )
+    //**GET FRONTMATTER */
+    const markdownWithMeta = fs.readFileSync(
+      path.join('posts', filename),
+      'utf-8'
+    )
 
-        const {data: frontmatter } = matter(markdownWithMeta)
+    const { data: frontmatter } = matter(markdownWithMeta)
 
-        return {
-          slug,
-          frontmatter,
+    return {
+      slug,
+      frontmatter,
     }
   })
-        console.log(posts)
+  console.log(posts)
 
-        return {
-          props: {
-          posts: posts.sort(sortByDate),
+  return {
+    props: {
+      posts: posts.sort(sortByDate),
     },
   }
 }

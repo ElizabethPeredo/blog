@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* ====================
-    * banner PAGE*
+    * BANNER PAGE*
 ==================== */
 
 .banner__container {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    padding: 1rem;
+    min-height: calc(100vh - 80px);
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem;
     background: var(--bg_banner);
-    padding: 1rem;
+    color: var(--color11);
+    padding: 1rem 2rem;
+    text-align: center;
 }
+
 
 .banner__container-navbar {
     position: absolute;
@@ -33,7 +35,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color2);
     background: var(--bg_banner);
 }
 
@@ -51,7 +52,7 @@
     color: var(--color22);
     font-size: 4em;
     font-weight: 500;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 .banner__container-content--text span {
@@ -62,8 +63,10 @@
 }
 
 .banner__container-content--img img {
+    margin: 2rem;
     padding: 0.5rem;
-    width: 20rem;
+    width: 25rem;
+    box-shadow: var(--box-shadow-colors);
 }
 
 /* ====================
@@ -88,5 +91,14 @@
     }
     .banner__container-content--img img{
         max-height:20rem;
+        box-shadow: var(--box-shadow-lines);
+    }
+}
+
+@media (max-width: 450px) {
+    .banner__container-content--img img{
+        max-height:20rem;
+        max-width: 15rem;
+        box-shadow: var(--box-shadow-lines);
     }
 }

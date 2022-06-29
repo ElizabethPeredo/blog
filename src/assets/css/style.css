@@ -569,6 +569,7 @@ button:hover,
     box-shadow: var(--black) 0px 7px 0px;
     transform: translateY(-15px);
     color: var(--color11);
+    margin-top:1rem;
 }
 
 /* =================

@@ -1,0 +1,56 @@
+/* ====================
+    * about *
+==================== */
+.about__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+    background: var(--color2);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.about__container-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+    background:var(--white);
+    width: 800px;
+    
+}
+
+.about__container-box__img {
+    height: 100%;
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding:0rem;
+    margin:0rem;
+}
+
+.about__container-box__info {
+    padding:1rem;
+}
+
+
+/* ====================
+    * RESPONSIVE*
+==================== */
+@media (max-width: 1200px) {
+    
+    
+}
+
+@media (max-width: 700px) {
+    .about__container-box {
+        grid-template-columns: 1fr;
+        min-width: 300px;
+    }
+    .about__container-box__img {
+        height: 20rem;
+    }
+}
