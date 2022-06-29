@@ -13,12 +13,17 @@ export default function Card({ post }) {
                 <div className="card-post__tag">
                     <a href="">{post.frontmatter.type}</a>
                 </div>
-                <h3 className="card-post__title">
-                    {post.frontmatter.title}
-                </h3>
+                <div className="card-post__title">
+                    <h3>
+                        {post.frontmatter.title}
+                    </h3>
+                </div>
+                <div className="card-post__button">
                 <Link href={`/blog/${post.slug}`}>
                     <a className='btn'>Leer Más</a>
                 </Link>
+                </div>
+                
             </div>
         </div>
     )

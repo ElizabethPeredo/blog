@@ -4,22 +4,32 @@
 :root {
   --heigh-min-post: 25rem;
   --heigh-max-post: auto;
-  --width-post: 18rem;
-  --heigh-img: 7rem;
+  --width-post: 19rem;
+  --heigh-img: 10rem;
+}
+
+.container__card-post {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--width-post), 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 0.8rem;
+  justify-items: stretch;
 }
 
 .card-post {
-  box-shadow: var(--box-shadow);
+
   overflow: hidden;
+  /*
+  box-shadow: var(--box-shadow);
   min-width: var(--width-post);
   max-width: var(--width-post);
   min-height: var(--heigh-min-post);
   max-height: var(--heigh-max-post);
-
+  */
   line-height: 1rem;
   position: relative;
   margin: 1.25rem 0.75rem;
-  background: var(--white);
+  background: var(--bg_card);
   transition: all 300ms ease-in-out;
 }
 
@@ -31,13 +41,14 @@
   margin: 0em;
   padding: 0em;
 }
+
 .card-post__top img,
 .card-post__img {
   margin: 0em;
   padding: 0em;
   width: 100%;
   height: var(--heigh-img);
-  min-height:var(--heigh-img);
+  min-height: var(--heigh-img);
   max-height: var(--heigh-img);
   top: 0;
   object-fit: cover;
@@ -81,12 +92,21 @@
   z-index: 10;
   transition: all 350ms ease-in-out;
   color: var(--black);
-  font-weight: bolder;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 1.2rem;
 }
 
+.card-post__title h3 {
+  font-family: var(--font-subtitle2) !important;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.card-post__button {
+  text-align: center;
+}
+.card-post__button *{
+  background: var(--bg_card)
+}
 .card-post__creator {
   padding-bottom: 0.75rem;
   transition: all 250ms ease-in-out;
@@ -112,19 +132,6 @@
   background: var(--gray);
   color: var(--white);
 }
-.container__card-post {
-  width: 100%;
-  /*height: 100vh;*/
-  transition: all 200ms ease-in-out;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--width-post), 1fr));
-  justify-items: center;
-}
 
-@media (max-width: 768px) {
-  :root {
-    --heigh-max-post: 25rem;
-    --width-post: 25rem;
-    --heigh-img: 10rem;
-  }
-}
+
+@media (max-width: 768px) {}

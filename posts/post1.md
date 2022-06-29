@@ -1,5 +1,5 @@
 ---
-title: 'Python'
+title: 'Measuring programming progress by lines of code is like measuring aircraft building progress by weight'
 date: 'Agosto 23, 2020'
 type: 'Python'
 cover_image: 'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg'

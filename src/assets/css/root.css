@@ -9,7 +9,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&family=BIZ+UDGothic:wght@400;700&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Signika+Negative:wght@300;400;500;600;700&family=Staatliches&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Monoton&family=Rubik+Wet+Paint&family=Skranji:wght@400;700&display=swap');
 /* =================
 *VARIABLES*
 =================*/
@@ -93,13 +97,15 @@
   /* =================
 * FONTS *
 =================*/
-  --font-title:'Noto Sans Display','Secular One',"Glory", cursive;
-  --font-subtitle: 'Noto Sans Display',"Glory", cursive;
-  --font-body: 'Oxygen',"Poppins", sans-serif;
+  --font-title:'Poppins',"Noto Sans Display","Secular One","Glory", cursive;
+  --font-subtitle1: 'Poppins',"Noto Sans Display","Glory", cursive;
+  --font-subtitle2:'Staatliches','Bebas Neue', 'Poppins',"Noto Sans Display","Glory",cursive;
+  --font-body:'Red Hat Display','Signika Negative', 'Quicksand', 'Oxygen','Fira Sans Condensed','Comfortaa','Bebas Neue','Assistant','Poppins','Inter','Jost','Anek Latin','Gothic A1','BIZ UDGothic',"Oxygen",'Montserrat Alternates',"Poppins", sans-serif;
   --font-banner: "Josefin Sans", cursive;
-  --font-logo: "Glory", cursive;
+  --font-logo: 'Skranji', 'Rubik Wet Paint', "Glory", cursive;
   --font-code: 'Fira Code', monospace;
   --font-size: 1.2rem;
+  
 
 
   /* =================
@@ -133,6 +139,7 @@
   --bg-header: #1b1b20;
   --bg-footer: #1b1b20;
   --bg_banner: var(--white);
+  --bg_card: rgba(155,183,252,0.2);
 }
 
 /*====================
