@@ -1,0 +1,15 @@
+/* ====================
+    * POST *
+==================== */
+.container__article-top {
+    background: var(--color1);
+    margin-bottom: 1rem;
+  }
+  
+  .container__article-top img {
+    height: 20rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+  }
