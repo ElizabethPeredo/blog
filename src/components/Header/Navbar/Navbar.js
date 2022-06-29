@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars} from "@fortawesome/free-solid-svg-icons"
+
 
 export default function Navbar() {
   function openMenu() {
@@ -32,7 +35,9 @@ export default function Navbar() {
               </Link>
             </ul>
           </div>
-          <div className="navbar__icon"></div>
+          <div className="navbar__icon">
+          <FontAwesomeIcon className="i color1" icon={faBars} id="menu-bars" onClick={openMenu} />
+          </div>
         </section>
       </navbar>
     </header>
