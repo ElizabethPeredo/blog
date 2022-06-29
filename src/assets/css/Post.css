@@ -2,14 +2,25 @@
     * POST *
 ==================== */
 .container__article-top {
-    background: var(--color1);
-    margin-bottom: 1rem;
-  }
-  
-  .container__article-top img {
-    height: 20rem;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    object-fit: cover;
-  }
+  background: var(--color1);
+  margin-bottom: 1rem;
+}
+
+.container__article-top img {
+  height: 20rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+}
+.container__post-info{
+  background: var(--color1);
+  color: var(--color11);
+  padding: 1rem;
+  margin: 1rem 0rem;
+  box-shadow: var(--box-shadow);
+}
+.container__post-content h1{
+  padding-bottom:0.3rem;
+
+}

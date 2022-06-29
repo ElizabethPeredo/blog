@@ -4,8 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* =================
 *VARIABLES*
@@ -90,9 +93,9 @@
   /* =================
 * FONTS *
 =================*/
-  --font-title: "Glory", cursive;
-  --font-subtitle: "Glory", cursive;
-  --font-body: "Poppins", sans-serif;
+  --font-title:'Noto Sans Display','Secular One',"Glory", cursive;
+  --font-subtitle: 'Noto Sans Display',"Glory", cursive;
+  --font-body: 'Oxygen',"Poppins", sans-serif;
   --font-banner: "Josefin Sans", cursive;
   --font-logo: "Glory", cursive;
   --font-code: 'Fira Code', monospace;

@@ -15,14 +15,19 @@ export default function PostPage({
             <PostContainerInfo>
                 <img src={cover_image} alt='' />
             </PostContainerInfo>
+            <section className="container__medium" >
+            <main className="container__post-info" >
+                    <h1 id="title">{title}</h1>
+                    <color1>Fecha de publicación: {date}</color1>
+                </main>
+            </section>
             <PostContainer>
-                <h1 id="title">{title}</h1>
-                <color1>Fecha de publicación: {date}</color1>
+                
                 <hr />
-                <div dangerouslySetInnerHTML=
+                <section className="container__post-content" dangerouslySetInnerHTML=
                     {{ __html: marked.parse(content), }}
                 >
-                </div>
+                </section>
             </PostContainer>
         </>
     )

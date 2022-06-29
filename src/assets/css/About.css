@@ -53,4 +53,7 @@
     .about__container-box__img {
         height: 20rem;
     }
+    .about__container{
+        padding:0.5rem;
+    }
 }

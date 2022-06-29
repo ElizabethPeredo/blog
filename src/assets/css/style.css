@@ -2,6 +2,7 @@
 *SETTINGS*
 =================*/
 @import "root.css";
+
 *,
 *::after,
 *::before {
@@ -221,7 +222,7 @@ link:hover,
 a:hover,
 a:active {
   /**border-bottom: 0.1em solid var(--color1);**/
-  color: var(--color11);
+  color: var(--color1);
 }
 
 ul,
@@ -426,6 +427,7 @@ code,
 code * {
   font-family: var(--font-code);
   font-size: 1.2rem;
+  color: black;
 }
 
 code[class*="language-"],
@@ -659,6 +661,23 @@ progress[value]::-webkit-progress-value {
   position: relative;
   background: var(--color1);
   animation: animate-stripes 5s linear infinite;
+}
+
+/* =================
+*ICON*
+=================*/
+i,.i{
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 1rem;
+  line-height: 2.5rem;
+  width: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--black);
+  background: var(--color1);
+  padding: 0.3rem;
+  margin-right: 1rem;
 }
 
 /* =================
