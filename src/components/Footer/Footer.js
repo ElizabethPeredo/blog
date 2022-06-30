@@ -16,20 +16,13 @@ export default function Footer() {
 
         <div className="footer__container-info2">
           <h2 className="">Connect</h2>
-          <div className="">
+          <div className="footer__container-info2-icon">
             <div className="">
-            <i className=""><FontAwesomeIcon className="color1" icon={faFacebook} /></i>
-              <a className="" href="">
-                Like us on Facebook
-              </a>
+              <span className="i"><FontAwesomeIcon className="" icon={faFacebook} /></span>
             </div>
             <div className="">
-              <i className=""><FontAwesomeIcon className="color1" icon={faTwitter} /></i>
-              <a className="" href="">
-                Like us on Twiter
-              </a>
+              <span className="i"><FontAwesomeIcon className="" icon={faTwitter} /></span>
             </div>
-
           </div>
         </div>
       </section>

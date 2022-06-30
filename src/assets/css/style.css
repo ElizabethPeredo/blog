@@ -221,7 +221,8 @@ link {
 
 link:hover,
 a:hover,
-a:active {
+a:active,
+a *:hover {
   /**border-bottom: 0.1em solid var(--color1);**/
   color: var(--color1);
 }
@@ -665,20 +666,33 @@ progress[value]::-webkit-progress-value {
 /* =================
 *ICON*
 =================*/
+span.i,
 i,.i{
   cursor: pointer;
-  margin-left: 0.5rem;
-  height: 1rem;
-  line-height: 2.5rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   text-align: center;
   border-radius: 50%;
+  color: var(--color1);
+  background: var(--color2);
+  margin-right: 1rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+span.i:hover,
+i,.i:hover{
+  transform: rotate(360deg);
   color: var(--black);
   background: var(--color1);
-  padding: 0.3rem;
-  margin-right: 1rem;
 }
-
+span.i *{
+  height: 1rem;
+  width: 1rem;
+  padding: 0.3rem;
+  margin:1rem;
+}
 
 /* =================
 *COLORS*

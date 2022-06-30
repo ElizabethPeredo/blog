@@ -1,0 +1,290 @@
+.container__resume {
+    max-width: 800px;
+    height: auto;
+    min-height: 297mm;
+    max-height: 297mm;
+    overflow: hidden;
+    margin: 1rem auto;
+    box-shadow: var(--box-shadow);
+    background: var(--white);
+}
+
+.container__resume-left-right {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    
+}
+
+.resume_center {
+    padding: 2rem;
+}
+
+.container__resume-left-right .resume_left {
+    background: var(--color1);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.container__resume-left-right .resume_left h1,
+.container__resume-left-right .resume_left h2 {
+    color: var(--white);
+}
+
+.container__resume h1 {
+    font-size: 1.7rem;
+}
+
+.container__resume h2 {
+    font-size: 1.3rem;
+}
+
+.container__resume-left-right .resume_left .resume_profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__resume-left-right .resume_left .resume_profile img {
+    width: 50%;
+    height: 30%;
+    height: 150px;
+    align-items: center;
+    margin-top: 1em;
+    box-shadow: var(--box-shadow);
+}
+
+.container__resume-left-right .resume_left .resume_profile .profile_info {
+    padding: 0.5rem 1rem;
+}
+
+.container__resume-left-right .resume_left .resume_content {
+    padding: 1rem;
+}
+
+.container__resume-left-right .title {
+    margin-bottom: 20px;
+}
+
+.container__resume-left-right .resume_left .bold {
+    color: var(--white);
+}
+
+.container__resume .resume_item,
+.container__resume-left-right .resume_right .resume_item {
+    padding: 1em 0;
+    border-bottom: 2px solid var(--color2);
+}
+
+.container__resume .resume_item:last-child,
+.container__resume-left-right .resume_left .resume_item:last-child,
+.container__resume-left-right .resume_right .resume_item:last-child {
+    border-bottom: 0px;
+}
+
+.container__resume-left-right .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.container__resume-left-right .resume_left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.container__resume-left-right .resume_left ul li .data,
+.container__resume a {
+    color: var(--color11);
+}
+
+.container__resume-left-right .resume_left .resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: var(--color11);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__resume-left-right .resume_left .resume_skills ul li .skill_name {
+    width: 33%;
+}
+
+.container__resume-left-right .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: var(--color1);
+    position: relative;
+}
+
+.container__resume-left-right .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+}
+
+.container__resume-left-right .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    padding: 0em;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--white);
+}
+
+.container__resume-left-right .resume_left .resume_social .semi-bold {
+    color: var(--white);
+    margin-bottom: 3px;
+}
+
+.container__resume-left-right .resume_right {
+    background: var(--white);
+    padding: 25px;
+}
+
+.container__resume .resume_item ul,
+.container__resume-left-right .resume_right .resume_item ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.container__resume ul li,
+.container__resume-left-right .resume_right ul li {
+    position: relative;
+}
+
+.container__resume ul li .date,
+.container__resume-left-right .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.container__resume ul li .info,
+.container__resume-left-right .resume_right ul li .info {
+    margin-bottom: 20px;
+}
+
+.container__resume ul li:last-child .info,
+.container__resume-left-right .resume_right ul li:last-child .info {
+    margin-bottom: 0;
+}
+
+.container__resume .resume_item ul li:before,
+.container__resume-left-right .resume_right .resume_item ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid var(--color1);
+}
+
+.container__resume .resume_item ul li:after,
+.container__resume-left-right .resume_right .resume_item ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: var(--color1);
+}
+
+@media only screen and (max-width: 800px) {
+    .container__resume {
+        min-width: 100%;
+        max-height:100%;
+        box-shadow: none;
+    }
+    .container__resume-left-right {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .container__resume-left-right .resume_left,
+    .container__resume-left-right .resume_right {
+        min-width: 100%;
+    }
+
+    .container__resume-left-right .resume_left .resume_item {
+        box-shadow: var(--box-shadow);
+        margin: 1rem;
+        padding: 1rem;
+        background-color: var(--background-body);
+        color: var(--color2);
+    }
+
+    .container__resume-left-right .resume_left .resume_item h2 {
+        color: var(--color1);
+    }
+
+    .resume_left {
+        grid-row: 1;
+    }
+
+    .resume_right {
+        grid-row: 2;
+    }
+
+    .container__resume-left-right .resume_left .resume_profile {
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .container__resume-left-right .resume_left .resume_profile img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    
+
+    .resume_profile img {
+        border-radius: 50%;
+        max-width: 15rem;
+        max-height: 15rem;
+        padding: 1rem;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resume_profile {
+        flex-direction: column;
+    }
+
+    .resume_profile .profile_info {
+        padding: 0em;
+    }
+}
+
+@media only print {
+    :root{
+        --white: var(--white);
+        --black: var(--black);
+    }
+    .container__resume *{
+        color:black;
+    }
+    .container__resume,
+    .container__resume-left-right {
+        max-height: 297mm;
+        max-width: 210mm;
+        min-height: 297mm !important;
+        min-width: 210mm !important;
+        box-shadow: none;
+        grid-template-columns: 1fr 2fr;
+        margin: 0em !important;
+        padding: 0em !important;
+    }
+    header,
+    footer {
+        display: none;
+        visibility: hidden;
+    }
+}

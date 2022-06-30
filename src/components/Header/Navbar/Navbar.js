@@ -24,7 +24,7 @@ export default function Navbar() {
           </div>
           <div className="navbar__items" id="menu">
             <ul>
-              <Link href={{ pathname: "/Home" }}>
+              <Link href={{ pathname: "/" }}>
                 <a className="">Home</a>
               </Link>
               <Link href={{ pathname: "/Blog" }}>

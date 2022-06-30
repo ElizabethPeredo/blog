@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.footer__container-info2-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .footer__container-copy {
     padding: 1rem;
 }
