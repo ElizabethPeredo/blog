@@ -2,15 +2,23 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink, faEnvelope, faUser, faMap } from "@fortawesome/free-solid-svg-icons"
+import { faLink, faEnvelope, faUser, faMap, faPrint } from "@fortawesome/free-solid-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 
 export default function CV() {
+    function printArea() {
+        window.print();
+    }
     return (
+
         <>
             <section classNameName="container__medium">
-                <section className="container__resume container__resume-left-right">
+                <div className="btn-print">
+                    <FontAwesomeIcon icon={faPrint} className="btn" onClick={() => window.print()}/>
+                </div>
+
+                <section className="container__resume container__resume-left-right" id="areaPrint">
                     <main className="resume_left">
 
                         <div className="resume_profile">
@@ -35,7 +43,9 @@ export default function CV() {
                                     </li>
                                     <li>
                                         <div className="">
-                                            <span className="i"><FontAwesomeIcon icon={faEnvelope} /></span>
+                                            <span className="i">
+                                                <FontAwesomeIcon icon={faEnvelope} />
+                                            </span>
                                         </div>
                                         <div className="data">
                                             elizabethperedo@outlook.es
@@ -540,7 +550,7 @@ export default function CV() {
                         </div>
                     </main>
                 </section>
-                
+
             </section>
         </>
     )

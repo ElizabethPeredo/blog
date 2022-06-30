@@ -194,6 +194,17 @@
     background: var(--color1);
 }
 
+.btn-print{
+    display: flex;
+    height:1rem;
+}
+.btn-print *{
+    height:3rem;
+    z-index:2;
+    border-radius: 50%; 
+    background: var(--white); 
+    color: var(--color2);  
+}
 @media only screen and (max-width: 800px) {
     .container__resume {
         min-width: 100%;
@@ -268,6 +279,10 @@
         --white: var(--white);
         --black: var(--black);
     }
+    @page {
+        size: A4; /* DIN A4 standard, Europe */
+        margin:0;
+      }
     .container__resume *{
         color:black;
     }
@@ -283,7 +298,8 @@
         padding: 0em !important;
     }
     header,
-    footer {
+    footer,
+    .btn-print {
         display: none;
         visibility: hidden;
     }
