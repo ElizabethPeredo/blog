@@ -45,6 +45,7 @@ export default function FilterCard({ post }) {
                 <button className="btn-short" onClick={() => filterSelection('Python')}> Python</button>
                 <button className="btn-short" onClick={() => filterSelection('JavaScript')}> JavaScript</button>
                 <button className="btn-short" onClick={() => filterSelection('English')}> English</button>
+                <button className="btn-short" onClick={() => filterSelection('Economy')}> Economy</button>
             </div >
         </>
     )

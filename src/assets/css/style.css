@@ -395,7 +395,7 @@ blockquote {
   margin: 1rem 0rem;
   border-left: 16px solid var(--color1);
   background: var(--light-gray);
-  color: var(--color11);
+  color: var(--color1);
   padding: 1rem;
 }
 
@@ -406,7 +406,8 @@ blockquote cite {
   text-align: right;
 }
 
-blockquote>* {
+blockquote>*,
+blockquote * {
   color: black;
 }
 
@@ -423,7 +424,7 @@ span {
   margin: 0em;
   background: var(--light-gray);
   border-radius: 2px;
-  color: var(--color11);
+  color: var(--color1);
 }
 
 code,
@@ -527,8 +528,7 @@ table th {
 }
 
 table tr:hover {
-  background: var(--light-gray);
-  color: var(--color11);
+  
 }
 
 /* =================

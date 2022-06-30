@@ -23,10 +23,9 @@ export default function PostPage({
                 </main>
 
             </section>
-            
+
             <PostContainer>
-                <hr />
-                <section className="container__post-content" dangerouslySetInnerHTML=
+                <section dangerouslySetInnerHTML=
                     {{ __html: marked.parse(content), }}
                 >
                 </section>
