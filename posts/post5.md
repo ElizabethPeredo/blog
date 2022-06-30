@@ -1,7 +1,7 @@
 ---
 title: 'Python'
 date: 'Agosto 23, 2020'
-type: 'Python'
+type: 'English'
 cover_image: 'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg'
 ---
 

@@ -31,6 +31,12 @@
   margin: 1.25rem 0.75rem;
   background: var(--bg_card);
   transition: all 300ms ease-in-out;
+  display: none;
+  float: left;
+}
+
+.show {
+  display: block;
 }
 
 .card-post * {

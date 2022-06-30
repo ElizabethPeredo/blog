@@ -349,6 +349,9 @@ figure img {
   display: none;
   visibility: hidden;
 }
+.show {
+  display: block;
+}
 
 /* ====================
     * ARTICLE *
@@ -574,6 +577,20 @@ button:hover,
     margin-top:1rem;
 }
 
+.btn-short {
+  padding: 0.2rem;
+  margin: 0.3rem 0.5rem;
+  border-radius: 0%;
+  font-size: 1.2rem;
+}
+.btn-short:hover,
+.btn-short.active{
+  box-shadow: none;
+  transform: none;
+  margin-top:0;
+  background:var(--color2);
+  color: var(--color22)
+}
 /* =================
 *FORMS*
 =================*/

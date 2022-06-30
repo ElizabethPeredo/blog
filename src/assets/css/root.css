@@ -129,8 +129,8 @@
   /* =================
 * COLOR *
 =================*/
-  --color1: var(--teal-old);
-  --color2: var(--yellow);
+--color1: #05a5ff;
+--color2: #a4e54b;
   --color11: white;
   --color22: white;
   --color-nav: var(--black);
@@ -190,6 +190,14 @@
   --font-body: "Body", sans-serif;
   --font-banner: "Banner", cursive;
 }*/
+.theme-color1{
+  --color1: #05a5ff;
+  --color2: #a4e54b;
+}
+.theme-color2{
+  --color1: var(--teal-old);
+  --color2: var(--yellow);
+}
 .theme-blue {
   --color1: var(--blue);
   --color2: var(--pale-blue);

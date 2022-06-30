@@ -4,23 +4,27 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import PostContainer from '../../src/containers/PostContainer/PostContainer'
+
 export default function PostPage({
     frontmatter: { title, date, cover_image },
     slug,
     content, }) {
     return (
         <>
-            <section className="container__medium container__post" >
+            <section className="container__medium container__post">
+
                 <main className="container__post-info" >
                     <h1 id="title">{title}</h1>
                     <color1>Fecha de publicación: {date}</color1>
                 </main>
-                <main className="container__post-img" >
-                <img src={cover_image} alt='' />
-                </main>
-            </section>
-            <PostContainer>
 
+                <main className="container__post-img" >
+                    <img src={cover_image} alt='' />
+                </main>
+
+            </section>
+            
+            <PostContainer>
                 <hr />
                 <section className="container__post-content" dangerouslySetInnerHTML=
                     {{ __html: marked.parse(content), }}

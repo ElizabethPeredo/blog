@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Card({ post }) {
     return (
-        <div className="card-post">
+
+        <div className={`card-post ${post.frontmatter.type}`} >
             <div className="card-post__top">
                 <img src={post.frontmatter.cover_image} alt='' />
             </div>
@@ -19,11 +20,10 @@ export default function Card({ post }) {
                     </h3>
                 </div>
                 <div className="card-post__button">
-                <Link href={`/blog/${post.slug}`}>
-                    <a className='btn'>Leer Más</a>
-                </Link>
+                    <Link href={`/blog/${post.slug}`}>
+                        <a className='btn'>Leer Más</a>
+                    </Link>
                 </div>
-                
             </div>
         </div>
     )
