@@ -287,31 +287,31 @@ summary.h3 {
 h1,
 summary.h1,
 .h1 {
-  font-size: 2.2rem;
+  font-size: calc(var(--font-size) + 1rem);
   font-family: var(--font-title);
   color: var(--black);
 }
 
 h2,
 summary.h2 {
-  font-size: 1.8rem;
+  font-size: calc(var(--font-size) + 0.8rem);
 }
 
 h3,
 summary.h3 {
-  font-size: 1.5rem;
+  font-size: calc(var(--font-size) + 0.6rem);
 }
 
 h4 {
-  font-size: 1.35rem;
+  font-size: calc(var(--font-size) + 0.4rem);
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: calc(var(--font-size) + 0.3rem);
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: calc(var(--font-size) + 0.2rem);
 }
 
 ol li::marker,
@@ -432,7 +432,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-weight: 600;
-  font-size: 1rem;
+  font-size:var(--font-size);
   text-align: right;
 }
 
@@ -608,7 +608,7 @@ button,
   padding: 0.4rem 2rem 0.4rem;
   display: inline-block;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--font-size);
   text-decoration: none;
   color: var(--color11);
   border-radius: 23px;
@@ -626,7 +626,7 @@ button *,
   cursor: pointer;
   background: var(--color1);
   color: var(--color11);
-  font-size: 1rem;
+  font-size: var(--font-size);
   padding: 0.3em;
   margin-bottom: 1rem;
 }
@@ -656,7 +656,7 @@ button img,
   padding: 0.2rem;
   margin: 0.3rem 0.5rem;
   border-radius: 0%;
-  font-size: 1.2rem;
+  font-size: var(--font-size);
 }
 .btn-short:hover,
 .btn-short.active {
@@ -1441,7 +1441,7 @@ pale-teal,
 
 @media (max-width: 1200px) {
   :root {
-    --font-size: 1.1rem;
+    --font-size: 1rem;
   }
 
   .container__small,
@@ -1457,6 +1457,7 @@ pale-teal,
     padding: 2em;
     /*margin: 0em auto !important;*/
   }
+
   .article__container,
   article {
     box-shadow: none;
@@ -1466,16 +1467,22 @@ pale-teal,
 }
 
 @media (max-width: 850px) {
+  :root {
+    --font-size: 1rem;
+  }
+
   .container__small,
   .container__medium,
   .container__slide {
     padding: 0 0.1em;
   }
+
   .article__container img,
   article img {
     max-width: 90%;
     margin: auto;
   }
+
   .flex-h-v {
     display: flex;
     flex-direction: column;

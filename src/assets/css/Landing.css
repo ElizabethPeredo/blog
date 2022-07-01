@@ -1,0 +1,35 @@
+/* ====================
+    * LANDING *
+==================== */
+.landing__container {
+    display: flex;
+    padding: 1rem;
+
+}
+.landing__container-item {
+    padding: 1rem;
+    width: 50%;
+
+    max-width: 45.8333333333vw;
+    border-radius: 2.7777777778vw;
+    height: 48.8888888889vw;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.1388888889vw solid;
+}
+
+.landing__container-item__img {
+    width: 50%;
+
+    max-width: 45.8333333333vw;
+    border-radius: 2.7777777778vw;
+    height: 48.8888888889vw;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
