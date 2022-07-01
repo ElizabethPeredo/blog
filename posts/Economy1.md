@@ -5,14 +5,7 @@ type: 'Economy'
 cover_image: 'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg'
 ---
 
-
-<article class="top">
-
 # CAPÍTULO I DISPOSICIONES GENERALES
-
-</article>
-
-<article class="bottom">
 
 ## Ámbito de aplicación
 
@@ -132,7 +125,8 @@ Empresas públicas del Sector Público No Financiero
 
 ## Artículo 7\. Registro de las UF y UEI y de sus Responsables
 
-<div class="tree"><details><summary>Registro de las UF y UEI</summary>
+<div class="tree">
+<details><summary>Registro de las UF y UEI</summary>
 
 <details><summary>Registro de las Mancomunidades Regionales como UF en el Banco de Inversiones</summary>
 
@@ -151,21 +145,11 @@ Empresas públicas del Sector Público No Financiero
 
 </details>
 
-</details></div>
-
-</article>
+</details>
 
 </div>
 
-<div>
-
-<article class="top">
-
 # CAPÍTULO II FASE DE PROGRAMACIÓN MULTIANUAL DE INVERSIONES DEL CICLO DE INVERSIÓN
-
-</article>
-
-<article class="bottom">
 
 ## Artículo 9\. Objetivo y etapas de la fase de Programación Multianual de Inversiones
 
@@ -178,6 +162,7 @@ Empresas públicas del Sector Público No Financiero
     *   ✏️conceptualizan, definen, actualizan, aprueban y publican ➡️ indicadores de brechas de infraestructura o de acceso a servicios
 
 </div>
+
 
 ### Fase de Programación Multianual
 
@@ -198,6 +183,7 @@ Empresas públicas del Sector Público No Financiero
     *   📒Elaboración y publicación del PMIE.
 
 </div>
+
 
 ## Artículo 10\. Criterios para la programación multianual de inversiones
 
@@ -296,23 +282,13 @@ Se aplican las disposiciones siguientes:
 
 > El PMIE se elabora sobre la base de los PMI sectoriales, regionales y locales, y de las empresas públicas bajo el ámbito de FONAFE, incluido ESSALUD, presentados a la DGPMI. La DGPMI está a cargo de su consolidación y publicación en el portal institucional del MEF.
 
-**Flujo de la fase de Programación Multianual de Inversiones*** ![](/img/eco1.JPG)
+**Flujo de la fase de Programación Multianual de Inversiones** 
+![](/img/Economy/img.JPG)
 
-<figcaption>* Este flujo resume el proceso de la fase de Programación Multianual de Inversiones, en articulación con el Sistema Nacional de Presupuesto Público y el Sistema Nacional de Endeudamiento Público.</figcaption>
+<figcaption>Este flujo resume el proceso de la fase de Programación Multianual de Inversiones, en articulación con el Sistema Nacional de Presupuesto Público y el Sistema Nacional de Endeudamiento Público.</figcaption>
 
-</article>
-
-</div>
-
-<div>
-
-<article class="top">
 
 # CAPÍTULO III FASE DE FORMULACIÓN Y EVALUACIÓN DEL CICLO DE INVERSIÓN
-
-</article>
-
-<article class="bottom">
 
 ## SUBCAPÍTULO I DISPOSICIONES GENERALES SOBRE LA FORMULACIÓN Y EVALUACIÓN
 
@@ -340,7 +316,7 @@ UF aplica los siguientes niveles de documentos técnicos:
 
     *   Ficha técnica para proyectos de inversión de baja y mediana complejidad
 
-        *   💵Montos de inversión (precios de mercado) < 407 000 UIT
+        *   💵Montos de inversión (precios de mercado) <div 407 000 UIT
 
     *   Estudio de preinversión a nivel de Perfil
 
@@ -369,5 +345,3 @@ Las fichas técnicas simplificadas y/o estándar deben incluir como mínimo
 
 Los estudios de preinversión a nivel de Perfil deben contar como mínimo con lo siguiente:
 
-
-</section>

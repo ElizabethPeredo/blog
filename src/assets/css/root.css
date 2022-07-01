@@ -38,7 +38,7 @@
   --light-blue: #00a6e7;
   --green: #49c333;
   --teal: #0da6b4;
-  --yellow: rgb(241, 188, 11);
+  --yellow: #f1bc0b;
   --red: #e01313;
   --pink: #c50094;
   --purple: #a434ff;
@@ -132,7 +132,7 @@
 --color1: #05a5ff;
 --color2: #a4e54b;
   --color11: white;
-  --color22: white;
+  --color22: #2c2c2c;
   --color-nav: var(--black);
   /* *BACKGROUND* */
   --bg-navbar: var(--white);

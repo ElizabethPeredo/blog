@@ -22,7 +22,7 @@ export default function CV() {
                     <main className="resume_left">
 
                         <div className="resume_profile">
-                            <img src="../src/assets/img/resume/ElizabethPeredo.jpeg"
+                            <img src="/img/resume/ElizabethPeredo.jpeg"
                                 alt="profile_pic" />
                             <div className="profile_info">
                                 <h1>Elizabeth Evelin Peredo Mescco</h1>

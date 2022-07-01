@@ -4,13 +4,41 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import PostContainer from '../../src/containers/PostContainer/PostContainer'
+import BtnBuyMeCoffee from '../../src/components/Button/BtnBuyMeCoffee'
+import prismjs from "prismjs";
+import Script from 'next/script'
 
 export default function PostPage({
     frontmatter: { title, date, cover_image },
     slug,
     content, }) {
+    const renderer = new marked.Renderer();
+    renderer.code = function (code, lang, escaped) {
+        code = this.options.highlight(code, lang);
+        if (!lang) {
+            return `<pre><code>${code}</code></pre>`;
+        }
+
+        var langClass = "language-" + lang;
+        return `<pre class="${langClass}"><code class="${langClass}">${code}</code></pre>`;
+    };
+
+    marked.setOptions({
+        renderer,
+        highlight: function (code, lang) {
+            try {
+                return prismjs.highlight(code, prismjs.languages[lang], lang);
+            } catch {
+                return code;
+            }
+        }
+    });
+
     return (
         <>
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js" />
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-python.min.js" />
+            
             <section className="container__medium container__post">
 
                 <main className="container__post-info" >
@@ -30,6 +58,7 @@ export default function PostPage({
                 >
                 </section>
             </PostContainer>
+            <BtnBuyMeCoffee />
         </>
     )
 }

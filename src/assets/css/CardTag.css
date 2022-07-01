@@ -1,0 +1,12 @@
+.English .card-post__tag a{
+    background: var(--teal);
+}
+.Python .card-post__tag a{
+    background: var(--orange);
+}
+.Economy .card-post__tag a{
+    background: var(--blue);
+}
+.JavaScript .card-post__tag a{
+    background: var(--purple);
+}

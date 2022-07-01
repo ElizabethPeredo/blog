@@ -1,17 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
-import btnabrir from '../BtnAbrir/BtnAbrir'
 
 export default function PostContainer({ children }) {
     return (
         <section className="container__medium">
-            <Link href='/Blog'>
+            <Link href='/'>
                 <a className="btn-post">Regresar</a>
             </Link>
             <hr/>
-            <>
+            <main className="article__container">
                 {children}
-            </>
+            </main>
         </section>
     )
 }

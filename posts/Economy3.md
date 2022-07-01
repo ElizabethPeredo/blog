@@ -5,13 +5,7 @@ type: 'Economy'
 cover_image: 'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg'
 ---
 
-<article class="top">
-
 # Glosario de Presupuesto Público
-
-</article>
-
-<article class="bottom">
 
 <table>
 

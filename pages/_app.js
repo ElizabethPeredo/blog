@@ -4,7 +4,9 @@ import  css from '../src/assets/css/global.css';
 import '@fortawesome/fontawesome-svg-core/styles.css'; //importing font awesome css
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
-
+import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+import '../src/assets/css/prism-themes/prism-z-touch.css'
 
 function MyApp({ Component, pageProps }) {
 

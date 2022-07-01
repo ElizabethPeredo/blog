@@ -6,7 +6,10 @@ import CardContainer from '../src/containers/CardContainer/CardContainer'
 import { sortByDate } from '../src/utils'
 import FilterCard from '../src/components/Card/FilterCard'
 
+
+
 export default function Blog({ posts }) {
+  
   return (
     <>
       <FilterCard />
@@ -35,6 +38,7 @@ export async function getStaticProps() {
       path.join('posts', filename),
       'utf-8'
     )
+
 
     const { data: frontmatter } = matter(markdownWithMeta)
 

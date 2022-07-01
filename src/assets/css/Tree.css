@@ -1,0 +1,239 @@
+/* ====================
+    * TREE HORIZONTAL *
+==================== */
+.tree__horizontal p,.tree__horizontal b{
+    border: solid 0.3rem var(--color1);
+    margin: 0em;
+    text-align: center;
+}
+.tree__horizontal ul {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+}
+
+.tree__horizontal ul ul::before {
+    border-right: 0.3rem solid var(--color1);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    height: 1rem;
+    width: 50%;
+}
+
+.tree__horizontal li {
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tree__horizontal li::before {
+    border-right: 0.3rem solid var(--color1);
+    border-top: 0.3rem solid var(--color1);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    height: 1rem;
+    width: 50%;
+}
+
+.tree__horizontal li::after {
+    border-top: 0.3rem solid var(--color1);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.tree__horizontal li:first-child::before,
+.tree__horizontal li:last-child::after {
+    border-top: none;
+}
+
+li.tree__horizontal__root::before{
+    border-right: none;
+    
+}
+
+/* =================
+  * TREE *
+  =================*/
+/* original idea http://www.bootply.com/phf8mnMtpe */
+
+.tree {
+    min-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tree ul {
+    margin: 0;
+  }
+  
+  .tree details,
+  .tree li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 5px 0 5px;
+    position: relative;
+  }
+  
+  .tree li::before,
+  .tree li::after {
+    content: "";
+    left: -20px;
+    position: absolute;
+    right: auto;
+  }
+  
+  .tree details::before,
+  .tree li::before {
+    border-left: 0.2em solid var(--color1);
+    bottom: 50px;
+    height: 100%;
+    top: 0;
+    width: 1px;
+  }
+  
+  .tree details::after,
+  .tree li::after {
+    border-top: 0.2em solid var(--color1);
+    height: 20px;
+    top: 30px;
+    width: 25px;
+  }
+  
+  .tree details summary,
+  .tree li p {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 0.2em solid var(--color1);
+    background: var(--color2);
+    color: var(--color22);
+    border-radius: 5px;
+    padding: 3px 8px;
+    margin: 0;
+  }
+  
+  .tree li p {
+    display: inline-block;
+  }
+  
+  .tree ul ul ul p {
+    border: 0.2em solid var(--color1);
+    background: var(--white);
+    color: var(--black);
+  }
+  
+  .tree details.parent_details > summary,
+  .tree li.parent_li > p {
+    cursor: pointer;
+  }
+  
+  .tree > ul > li::before,
+  .tree > ul > li::after {
+    border: 0;
+  }
+  
+  .tree li:last-child::before {
+    height: 30px;
+  }
+  
+  .tree li.parent_li > p:hover,
+  .tree li.parent_li > p:hover + ul li p {
+    background: var(--color2);
+    border: 0.2em solid var(--color1);
+    color: #000;
+  }
+  
+  /* =================
+    * TIMELINE *
+    =================*/
+  
+    .timeline {
+      position: relative;
+      width: 500px;
+      max-width: 95vw;
+      height: auto;
+      margin: 1rem auto;
+    }
+    
+    .timeline::before {
+      content: '';
+      position: absolute;
+      width: 3px;
+      background-color: #000;
+      left: 50%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    
+    .timeline__container {
+      position: relative;
+      width: 45%;
+      box-sizing: border-box;
+    }
+    
+    .timeline__container:nth-child(even) {
+      left: 55%;
+    }
+    
+    .timeline__container::after {
+      content: '';
+      position: absolute;
+      top: calc(50% + 10px);
+      right: calc(-11.11% - 11.5px);
+      height: 20px;
+      width: 20px;
+      background-color: #000;
+      border-radius: 50%;
+    }
+    
+    .timeline__container:nth-child(even)::after {
+      left: calc(-11.11% - 8.5px);
+    }
+    
+    .timeline__container .timeline__date {
+      margin: 10px 0px;
+      font-size: var(--font-size);
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .timeline__container .timeline__info {
+      background-color: var(--color2);
+      border-radius: 10px;
+      padding: 10px;
+      line-height: 22px;
+      font-size: var(--font-size);
+    }
+    
+    .timeline__container .timeline__info::after {
+      content: '';
+      position: absolute;
+      right: -10px;
+      top: calc(50% + 10px);
+      height: 0;
+      width: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 12px solid var(--color2);
+    }
+    
+    .timeline__container:nth-child(even) .timeline__info {
+      background-color: var(--color2);
+    }
+    
+    .timeline__container:nth-child(even) .timeline__info::after{
+      left: -10px;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 12px solid var(--color2);
+      border-left: none;
+    }

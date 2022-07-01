@@ -36,7 +36,7 @@
 
 .banner__container-content * {
   font-family: "Poppins", sans-serif;
-  color: var(--color22);
+  color: var(--color11);
 }
 .banner__container-content--text,
 .banner__container-content--btn {
@@ -49,12 +49,12 @@
 }
 
 .banner__container-content--text h1 {
-  color: var(--color22);
+  color: var(--color11);
   font-size: 3.5rem;
   font-weight: 500;
 }
 .banner__container-content--text p {
-  color: var(--color22);
+  color: var(--color11);
   font-size: 1.3rem;
 }
 

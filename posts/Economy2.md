@@ -5,15 +5,8 @@ type: 'Economy'
 cover_image: 'https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg'
 ---
 
-<article class="top">
-
-{/*CHAPTER 1*/}
 # EL ESTÁNDAR PARA LA DIRECCIÓN DE PROYECTOS
 
-</article>
-
-<article class="bottom">
-{/*CHAPTER 1.1*/} 
 <details><summary classname="h2">INTRODUCCIÓN</summary>
 
 ### Propósito de El Estándar para la Dirección de Proyectos
@@ -42,7 +35,9 @@ El Estándar para la Dirección de Proyectos proporciona una base para comprende
 *   Se enfocan en la entrega de valor para portafolios, programas y proyectos
 *   Están involucrados en cualquier aspecto de la cadena de entrega de valor del proyecto
 
-</details>{/*CHAPTER 1.2*/} <details><summary classname="h2">UN SISTEMA PARA LA ENTREGA DE VALOR</summary>
+</details>
+
+<details><summary classname="h2">UN SISTEMA PARA LA ENTREGA DE VALOR</summary>
 
 ### Creación de Valor
 
@@ -55,7 +50,7 @@ El Estándar para la Dirección de Proyectos proporciona una base para comprende
 
 <figcaption>Ejemplo de un Sistema para la Entrega de Valor</figcaption>
 
-![]({img1})</figure>
+![Image](/img/Economy/img1.JPG)</figure>
 
 #### FLUJO DE INFORMACIÓN
 
@@ -122,7 +117,7 @@ Los entornos internos y externos pueden influir en la planificación y otras act
 
 <figcaption>Ciclo de Vida del Producto</figcaption>
 
-![]({img2})</figure>
+![Image](/img/Economy/img2.JPG)</figure>
 
 **Gestión del producto incluye**
 
@@ -130,7 +125,8 @@ Los entornos internos y externos pueden influir en la planificación y otras act
 *   **Dirección de proyectos dentro de un ciclo de vida del producto:** supervisa el desarrollo y la maduración de las capacidades del producto
 *   **Gestión del producto dentro de un programa** aplica el ciclo de vida completo del producto dentro del ámbito y los límites de un programa dado
 
-</details>{/*CHAPTER 1.3*/} <details><summary classname="h2">PRINCIPIOS DE LA DIRECCIÓN DE PROYECTOS</summary>
+</details>
+<details><summary classname="h2">PRINCIPIOS DE LA DIRECCIÓN DE PROYECTOS</summary>
 
 ### Ser un Administrador Diligente, Respetuoso y Cuidadoso
 
@@ -418,23 +414,10 @@ El cambio en una organización puede originarse de fuentes internas, tales como 
 
 </details>
 
-* * *
-
-</article>
-
-
-
-<article class="top">
-
-{/*CHAPTER 2*/}
-
 # GUÍA DE LOS FUNDAMENTOS PARA LA DIRECCIÓN DE PROYECTOS (GUÍA DEL PMBOK®)
 
-</article>
 
-<article class="bottom">
-
-{/*CHAPTER 2.1*/} <details><summary classname="h2">INTRODUCCIÓN</summary>
+<details><summary classname="h2">INTRODUCCIÓN</summary>
 
 ### Relación entre la Guía del PMBOK® y El Estándar para la Dirección de Proyectos
 
@@ -442,13 +425,14 @@ El cambio en una organización puede originarse de fuentes internas, tales como 
 
 <figcaption>Relación entre los Principios de la Dirección de Proyectos y los Dominios de Desempeño del Proyecto</figcaption>
 
-![]({img3})</figure>
+![Image](/img/Economy/img3.JPG)</figure>
 
-</details>{/*CHAPTER 2.2*/} <details><summary classname="h2">DOMINIOS DE DESEMPEÑO DEL PROYECTO</summary>
+</details>
+<details><summary classname="h2">DOMINIOS DE DESEMPEÑO DEL PROYECTO</summary>
 
 > Un dominio de desempeño del proyecto es un grupo de actividades relacionadas que son fundamentales para la entrega efectiva de los resultados de los proyectos
 
-{/*CHAPTER 2.2.1*/} <details><summary classname="h3">Dominio de Desempeño de los Interesados</summary>
+<details><summary classname="h3">Dominio de Desempeño de los Interesados</summary>
 
 El dominio de desempeño de los interesados se ocupa de las actividades y funciones asociadas con los interesados.
 
@@ -466,13 +450,15 @@ La ejecución efectiva de este dominio de desempeño tiene los siguientes result
 
 <figcaption>Ejemplos de Interesados del Proyecto</figcaption>
 
-![]({img4})</figure>
+![Image](/img/Economy/img4.JPG)
+
+</figure>
 
 #### Involucramiento de los Interesados
 
 comprende la aplicación de estrategias y medidas para promover la participación productiva de los interesados
 
-![]({img5})
+![Image](/img/Economy/img5.JPG)
 
 ##### Identificar
 
@@ -494,7 +480,7 @@ El involucramiento de los interesados requiere la aplicación de habilidades bla
 
 <figcaption>Tipos de Comunicación</figcaption>
 
-![]({img6})</figure>
+![Image](/img/Economy/img6.JPG)</figure>
 
 **Los métodos de comunicación incluyen la comunicación de tipo push/pull e interactiva**
 
@@ -558,7 +544,8 @@ Las revisiones del proyecto y de las iteraciones, las revisiones de productos, l
 
 </table>
 
-</details>{/*CHAPTER 2.2.2*/} <details><summary classname="h3">Dominio de Desempeño del Equipo</summary>
+</details>
+<details><summary classname="h3">Dominio de Desempeño del Equipo</summary>
 
 El dominio de desempeño del equipo se ocupa de las actividades y funciones asociadas con las personas responsables de producir los entregables del proyecto que hacen realidad los resultados del negocio.
 
@@ -641,7 +628,7 @@ La motivación para desempeñarse puede ser intrínseca o extrínseca
 *   **Conciencia social** tiene que ver con la empatía, la comprensión y la consideración de los sentimientos de otras personas
 *   **Habilidad social** Se ocupa de gestionar grupos de personas, tales como equipos de proyecto, construir redes sociales, encontrar puntos en común con varios interesados y establecer una buena communicación.
 
-![]({img7})
+![Image](/img/Economy/img7.JPG)
 
 #### Adaptación de Estilos de Liderazgo
 
@@ -704,7 +691,8 @@ Algunas de las variables que influyen en la adaptación de los estilos de lidera
 
 </table>
 
-</details>{/*CHAPTER 2.2.3*/} <details><summary classname="h3">Dominio de Desempeño del Enfoque de Desarrollo y del Ciclo de Vida</summary>
+</details>
+<details><summary classname="h3">Dominio de Desempeño del Enfoque de Desarrollo y del Ciclo de Vida</summary>
 
 El dominio del enfoque de desarrollo y del desempeño del ciclo de vida aborda las actividades y funciones asociadas con el enfoque de desarrollo, la cadencia y las fases del ciclo de vida del proyecto.
 
@@ -778,7 +766,7 @@ El tipo de entregable(s) y el enfoque de desarrollo influyen en el número y la 
 
 > Un enfoque de desarrollo es el medio utilizado para crear y desarrollar el producto, servicio o resultado durante el ciclo de vida del proyecto.
 
-![]({img8})
+![Image](/img/Economy/img8.JPG)
 
 <table>
 
@@ -830,7 +818,7 @@ El tipo de entregable(s) y el enfoque de desarrollo influyen en el número y la 
 
 </table>
 
-![]({img9})
+![Image](/img/Economy/img9.JPG)
 
 #### Consideraciones para Seleccionar un Enfoque de Desarrollo
 
@@ -1030,15 +1018,15 @@ Influyen en el enfoque de desarrollo
 
 #### Alineación de Cadencia de Entrega,
 
-![]({img10})
+![Image](/img/Economy/img10.JPG)
 
 Este tipo de ciclo de vida encajaría bien con un enfoque de desarrollo **predictivo**, ya que cada fase se realiza solo una vez, y cada fase se centra en un tipo particular de trabajo. Sin embargo, hay situaciones, como la adición de alcance, un cambio en los requisitos o un cambio en el mercado que causan que se repitan las fases.
 
-![]({img11})
+![Image](/img/Economy/img11.JPG)
 
 El gráfico muestra un ciclo de vida con un enfoque de desarrollo **incremental**. En este ejemplo se muestran tres iteraciones de plan, diseño y construcción. Cada versión posterior añadiría funcionalidad a la versión inicial
 
-![]({img12})
+![Image](/img/Economy/img12.JPG)
 
 El gráfico muestra un ciclo de vida utilizando un enfoque de desarrollo **adaptativo**. Al final de cada iteración (a veces conocida como sprint), el cliente revisa un entregable funcional. En la revisión, los interesados clave proporcionan retroalimentación, y el equipo de proyecto actualiza la lista de trabajo pendiente del proyecto de características y funciones con el fin de priorizar para la siguiente iteración.
 
@@ -1167,7 +1155,7 @@ El gráfico muestra un ciclo de vida utilizando un enfoque de desarrollo **adapt
 
 </div>
 
-**Ejemplo:** ![]({img13})
+**Ejemplo:** ![Image](/img/Economy/img13.JPG)
 
 Las fases de desarrollo, prueba y despliegue se superponen porque los diferentes entregables se desarrollarán, probarán e implementarán en diferentes momentos, y algunos entregables tendrán múltiples entregas.
 
@@ -1225,7 +1213,8 @@ Para un entregable que tiene mucho riesgo asociado con la aceptación de los int
 
 </table>
 
-</details>{/*CHAPTER 2.2.4*/} <details><summary classname="h3">Dominio de Desempeño de la Planificación</summary>
+</details>
+<details><summary classname="h3">Dominio de Desempeño de la Planificación</summary>
 
 El domino de desempeño de la planificación aborda las actividades y funciones asociadas con la organización y coordinación iniciales, necesarias para la entrega de los elementos entregables y los resultados del proyecto.
 
@@ -1322,17 +1311,17 @@ La ejecución efectiva de este dominio de desempeño tiene los siguientes result
 
 <figcaption>El Rango de los Estimados Disminuye con el Tiempo</figcaption>
 
-![]({img14})
+![Image](/img/Economy/img14.JPG)
 
 Existe un rango de -25 a +75 % al comienzo de la exploración de una oportunidad de proyecto. Los proyectos que están muy avanzados en su ciclo de vida pueden tener un rango estimado de -5 a +10 %
 
 <figcaption>Baja Exactitud, Alta Precisión</figcaption>
 
-![]({img15})
+![Image](/img/Economy/img15.JPG)
 
 La precisión es diferente de la exactitud
 
-<div classname="border-light-gray">![]({img16})
+<div classname="border-light-gray">![Image](/img/Economy/img16.JPG)
 
 La **precisión** es una medida de cuan repetitivo podemos hacer nuestro proceso en un punto en especial, sin importar cuál sea el valor de este punto.La **exactitud** es que tan cerca estamos de ese punto sin importar la frecuencia de las repeticiones en las que nos acercamos a este punto.
 
@@ -1461,7 +1450,7 @@ La intensificación puede incluir añadir personas a las actividades, trabajar h
 
 <figcaption>Ejemplos de Ejecución Rápida</figcaption>
 
-![]({img17})</figure>
+![Image](/img/Economy/img17.JPG)</figure>
 
 **Tipos de dependencias**
 
@@ -1507,7 +1496,7 @@ La planificación adaptativa de cronograma utiliza planificación incremental. U
 
 <figcaption>Plan de Liberación e Iteración</figcaption>
 
-![]({img18})
+![Image](/img/Economy/img18.JPG)
 
 Dentro de cada liberación, habrá dos o más iteraciones.Cada iteración añade valor de negocio y/o para los interesados.El valor puede incluir características, reducción de riesgos, experimentación u otras formas de entregar o proteger el valor.
 
@@ -1525,7 +1514,7 @@ La línea base de costos a menudo es distribuida a través del cronograma del pr
 
 <figcaption>Formación del Presupuesto</figcaption>
 
-![]({img19})</figure>
+![Image](/img/Economy/img19.JPG)</figure>
 
 #### Composición y Estructura del Equipo de Proyecto
 
@@ -1652,7 +1641,8 @@ La incertidumbre y la planificación interactúan a medida que los equipos de pr
 
 </table>
 
-</details>{/*CHAPTER 2.2.5*/} <details><summary classname="h3">Dominio de Desempeño del Trabajo del Proyecto</summary>
+</details>
+<details><summary classname="h3">Dominio de Desempeño del Trabajo del Proyecto</summary>
 
 El dominio de desempeño del trabajo del proyecto aborda las actividades y funciones asociadas con el establecimiento de los procesos del proyecto, la gestión de los recursos físicos y el fomento de un entorno de aprendizaje.
 
@@ -1915,7 +1905,9 @@ El trabajo del proyecto apoya la navegación de la incertidumbre, la ambigüedad
 
 </table>
 
-</details>{/*CHAPTER 2.2.6*/} <details><summary classname="h3">Dominio de Desempeño de la Entrega</summary>
+</details>
+
+<details><summary classname="h3">Dominio de Desempeño de la Entrega</summary>
 
 El dominio de desempeño de la entrega aborda las actividades y funciones asociadas con la entrega de alcance y la calidad para cuyo logro se emprendió el proyecto.
 
@@ -2010,19 +2002,25 @@ A medida que se define el alcance, se crea la necesidad de una mayor identificac
 
 <th rowspan="3">Finalización de entregables</th>
 
-<td>**Criterios de aceptación o finalización.** Los criterios que deben cumplirse antes de que el cliente acepte el entregable o antes de que el proyecto se considere completo a menudo se documentan en una declaración de alcance.</td>
+<td>
+
+**Criterios de aceptación o finalización.** Los criterios que deben cumplirse antes de que el cliente acepte el entregable o antes de que el proyecto se considere completo a menudo se documentan en una declaración de alcance.</td>
 
 </tr>
 
 <tr>
 
-<td>**Medidas de desempeño técnico.** Las especificaciones técnicas de un producto pueden ser documentadas en un documento de especificaciones separado, o pueden ser documentadas como una extensión de la EDT. (diccionario de la EDT).</td>
+<td>
+
+**Medidas de desempeño técnico.** Las especificaciones técnicas de un producto pueden ser documentadas en un documento de especificaciones separado, o pueden ser documentadas como una extensión de la EDT. (diccionario de la EDT).</td>
 
 </tr>
 
 <tr>
 
-<td>**Definición de terminado.** La definición de terminado se utiliza con enfoques adaptativos, particularmente en proyectos de desarrollo de software. Es una lista de verificación que incluye todos los criterios requeridos para que un entregable sea considerado como listo para usar por parte del cliente.</td>
+<td>
+
+**Definición de terminado.** La definición de terminado se utiliza con enfoques adaptativos, particularmente en proyectos de desarrollo de software. Es una lista de verificación que incluye todos los criterios requeridos para que un entregable sea considerado como listo para usar por parte del cliente.</td>
 
 </tr>
 
@@ -2048,7 +2046,7 @@ Los proyectos que operan en entornos inciertos y rápidamente cambiantes enfrent
 
 <figcaption>Escenario para Desarrollar un Reloj Inteligente</figcaption>
 
-![]({img20})
+![Image](/img/Economy/img20.JPG)
 
 A medida que los competidores lanzan productos similares, el conjunto inicial de capacidades y características aumenta para seguir siendo relevante en el mercado.Esto mueve la fecha de lanzamiento.A los 13 meses, otro competidor lanza un producto con aún más capacidades.Añadir estas capacidades retrasaría el lanzamiento. <color2>En algún momento, se tomará una decisión sobre si liberar el producto tal como está, aunque no tenga las características más recientes, o continuar actualizando las características antes del lanzamiento.</color2>
 
@@ -2094,7 +2092,9 @@ Gran parte de los costos asociados con la calidad nacen de la organización patr
 
 <td>Los costos de prevención se incurren para mantener los defectos y fallas alejados de un producto. Los costos de prevención evitan problemas de calidad.</td>
 
-<td>**Ejemplos:***   Requisitos de productos o servicios, tales como el establecimiento de especificaciones para los materiales entrantes, procesos, productos terminados y servicios*   Planificación de la calidad, tales como la creación de planes de calidad, confiabilidad, operaciones, producción e inspección*   Aseguramiento de la calidad, tales como la creación y el mantenimiento del sistema de calidad*   Capacitación, tales como el desarrollo, preparación y mantenimiento de programas.</td>
+<td>
+
+**Ejemplos:***   Requisitos de productos o servicios, tales como el establecimiento de especificaciones para los materiales entrantes, procesos, productos terminados y servicios*   Planificación de la calidad, tales como la creación de planes de calidad, confiabilidad, operaciones, producción e inspección*   Aseguramiento de la calidad, tales como la creación y el mantenimiento del sistema de calidad*   Capacitación, tales como el desarrollo, preparación y mantenimiento de programas.</td>
 
 </tr>
 
@@ -2108,7 +2108,9 @@ Gran parte de los costos asociados con la calidad nacen de la organización patr
 
 <td>Se incurre en costos de evaluación para determinar el grado de conformidad con los requisitos de calidad. Los costos de evaluación están asociados con las actividades de medición y monitoreo relacionadas con la calidad.</td>
 
-<td>**Podrían incluir:***   Verificación, tales como comprobar el material entrante, la configuración del proceso y los productos contra las especificaciones acordadas*   Auditorías de calidad, tales como la confirmación de que el sistema de calidad está funcionando correctamente*   Calificación de proveedores, tales como evaluación y aprobación de proveedores de productos y servicios</td>
+<td>
+
+**Podrían incluir:***   Verificación, tales como comprobar el material entrante, la configuración del proceso y los productos contra las especificaciones acordadas*   Auditorías de calidad, tales como la confirmación de que el sistema de calidad está funcionando correctamente*   Calificación de proveedores, tales como evaluación y aprobación de proveedores de productos y servicios</td>
 
 </tr>
 
@@ -2122,7 +2124,9 @@ Gran parte de los costos asociados con la calidad nacen de la organización patr
 
 <td>Los costos de falla interna están asociados con la búsqueda y corrección de defectos antes de que el cliente reciba el producto.</td>
 
-<td>**Ejemplos:***   Desperdicio, tal como el desempeño de un trabajo innecesario o tener suficiente inventario para tomar en cuenta errores, mala organización o comunicación*   Desechos, tales como productos que no pueden ser reparados, utilizados o vendidos*   Retrabajo o rectificación, tal como la corrección de material defectuoso o de errores*   Análisis de fallas, tales como actividades requeridas para establecer las causas de fallas internas del producto o servicio</td>
+<td>
+
+**Ejemplos:***   Desperdicio, tal como el desempeño de un trabajo innecesario o tener suficiente inventario para tomar en cuenta errores, mala organización o comunicación*   Desechos, tales como productos que no pueden ser reparados, utilizados o vendidos*   Retrabajo o rectificación, tal como la corrección de material defectuoso o de errores*   Análisis de fallas, tales como actividades requeridas para establecer las causas de fallas internas del producto o servicio</td>
 
 </tr>
 
@@ -2136,7 +2140,9 @@ Gran parte de los costos asociados con la calidad nacen de la organización patr
 
 <td>Los costos de falla externa se asocian con los defectos encontrados después de que el cliente tiene el producto y con su reparación, se detectan hasta después de que han llegado al cliente.</td>
 
-<td>**Ejemplos:***   Reparaciones y mantenimiento*   Reclamaciones de garantía, tales como productos con fallas que son reemplazados o servicios que se vuelven a prestar bajo una garantía*   Quejas de los clientes*   Devoluciones, para el manejo e investigación de productos rechazados o retirados del mercado, incluidos los costos de transporte*   Reputación, cuando la reputación y la percepción pública pueden verse afectadas dependiendo del tipo y gravedad de los defectos</td>
+<td>
+
+**Ejemplos:***   Reparaciones y mantenimiento*   Reclamaciones de garantía, tales como productos con fallas que son reemplazados o servicios que se vuelven a prestar bajo una garantía*   Quejas de los clientes*   Devoluciones, para el manejo e investigación de productos rechazados o retirados del mercado, incluidos los costos de transporte*   Reputación, cuando la reputación y la percepción pública pueden verse afectadas dependiendo del tipo y gravedad de los defectos</td>
 
 </tr>
 
@@ -2150,7 +2156,7 @@ Para optimizar el valor entregado, la inspección temprana y el trabajo de revis
 
 Cuanto más tarde se encuentre un defecto, más caro será corregirlo.
 
-![]({img21})
+![Image](/img/Economy/img21.JPG)
 
 Para contrarrestar los impactos de la curva de costo del cambio, los equipos de proyecto diseñan procesos del proyecto con el fin de incorporar calidad.
 
@@ -2226,7 +2232,9 @@ La naturaleza del trabajo para crear las entregas influirá en la forma en que e
 
 </table>
 
-</details>{/*CHAPTER 2.2.7*/} <details><summary classname="h3">Dominio de Desempeño de la Medición</summary>
+</details>
+
+<details><summary classname="h3">Dominio de Desempeño de la Medición</summary>
 
 El dominio de desempeño de la medición aborda las actividades y funciones asociadas con la evaluación del desempeño de los proyectos y la adopción de medidas apropiadas para mantener un desempeño aceptable.
 
@@ -2551,7 +2559,7 @@ Las medidas de costo comunes incluyen:
 
 <figcaption>Análisis del Valor Ganado que muestra la Variación del Cronograma y del Costo</figcaption>
 
-![]({img22})
+![Image](/img/Economy/img22.JPG)
 
 El Gráfico muestra un gráfico del valor ganado que ilustra la variación del costo.
 
@@ -2677,7 +2685,7 @@ Las métricas que miden el valor de negocio financiero incluyen:
 
 <figcaption>Tablero de Estados de Ánimo</figcaption>
 
-![]({img23})
+![Image](/img/Economy/img23.JPG)
 
 El Gráfico muestra un diagrama de estados de ánimo usando emojis.El seguimiento del estado de ánimo del equipo de proyecto puede ayudar a identificar posibles problemas y áreas a mejorar.
 
@@ -2753,7 +2761,7 @@ Los pronósticos cuantitativos incluyen:
 
 <figcaption>Pronóstico de Estimación a la Conclusión y Estimación hasta la Conclusión</figcaption>
 
-![]({img24})</figure>
+![Image](/img/Economy/img24.JPG)</figure>
 
 #### Presentación de la Información
 
@@ -2769,7 +2777,7 @@ Los tableros de control generalmente recopilan información electrónicamente y 
 
 <figcaption>Ejemplo de Tablero de Control</figcaption>
 
-![]({img25})</figure>
+![Image](/img/Economy/img25.JPG)</figure>
 
 ##### Radiadores de Información
 
@@ -2781,7 +2789,7 @@ Los radiadores de información, también conocidos como grandes gráficos visibl
 
 <figcaption>Radiador de Información</figcaption>
 
-![]({img26})
+![Image](/img/Economy/img26.JPG)
 
 El Gráfico muestra un radiador de información asociado con el trabajo completado, el trabajo restante y los riesgos.
 
@@ -2833,13 +2841,13 @@ En entornos lean, los radiadores de información se conocen como controles visua
 
 <figcaption>Tablero de Tareas o Tablero Kanban</figcaption>
 
-![]({img27})</figure>
+![Image](/img/Economy/img27.JPG)</figure>
 
 <figure>
 
 <figcaption>Gráfica de Trabajo Realizado (Burnup)</figcaption>
 
-![]({img28})</figure>
+![Image](/img/Economy/img28.JPG)</figure>
 
 #### Peligros en las Mediciones
 
@@ -2907,7 +2915,7 @@ En entornos lean, los radiadores de información se conocen como controles visua
 
 <figcaption>Tasas de Gasto Planificadas y Reales</figcaption>
 
-![]({img29})
+![Image](/img/Economy/img29.JPG)
 
 El Gráfico muestra un ejemplo de un umbral presupuestal establecido en +10 % (naranja) y -20 % (verde) de la tasa de gasto prevista.La línea azul representa el gasto real, y en enero, excedió la tolerancia superior del +10 % que activaría el plan de excepción.
 
@@ -2985,7 +2993,9 @@ A medida que ocurren eventos impredecibles, tanto positivos como negativos, esto
 
 </table>
 
-</details>{/*CHAPTER 2.2.8*/} <details><summary classname="h3">Dominio de Desempeño de la Incertidumbre</summary>
+</details>
+
+<details><summary classname="h3">Dominio de Desempeño de la Incertidumbre</summary>
 
 El dominio de desempeño de la incertidumbre se ocupa de las actividades y funciones asociadas con el riesgo y la incertidumbre.
 
@@ -3308,7 +3318,7 @@ Estrategias alternativas para hacer frente a las amenazas:
 
 <figcaption>Reducción del Riesgo con el Tiempo</figcaption>
 
-![]({img30})
+![Image](/img/Economy/img30.JPG)
 
 El Gráfico muestra cómo se monitorean y reducen los riesgos a lo largo del tiempo.
 
@@ -3372,7 +3382,7 @@ Estrategias alternativas para hacer frente a las oportunidades
 
 <figcaption>Curva de ROI Ajustado al Riesgo</figcaption>
 
-![]({img31})
+![Image](/img/Economy/img31.JPG)
 
 Tener una visión económica de la priorización del trabajo permite al equipo priorizar las actividades de prevención y reducción de amenazas.
 
@@ -3541,7 +3551,9 @@ LOS DOMINIOS DE DESEMPEÑO DE LOS PROYECTOS
 
 <tr>
 
-<td colspan="8">**Fuente: Elaboración propia con información dePMBOK (7° Edición)**</td>
+<td colspan="8">
+
+**Fuente: Elaboración propia con información dePMBOK (7° Edición)**</td>
 
 </tr>
 
@@ -3551,7 +3563,7 @@ LOS DOMINIOS DE DESEMPEÑO DE LOS PROYECTOS
 
 </div>
 
-{/*CHAPTER 2.3*/} <details><summary classname="h2">ADAPTACIÓN</summary>
+<details><summary classname="h2">ADAPTACIÓN</summary>
 
 ### Descripción General
 
@@ -3690,7 +3702,7 @@ Es necesario analizar y comprender el entorno del proyecto antes de la adaptaci�
 
 <figcaption>Detalles de los Pasos en el Proceso de Adaptación</figcaption>
 
-![]({img32})</figure>
+![Image](/img/Economy/img32.JPG)</figure>
 
 #### Seleccionar el Enfoque de Desarrollo Inicial
 
@@ -3710,7 +3722,7 @@ La adaptación a la organización implica añadir, eliminar y reconfigurar eleme
 
 <figcaption>Evaluación de los Factores de la Organización y del Proyecto al Adaptar</figcaption>
 
-![]({img33})</figure>
+![Image](/img/Economy/img33.JPG)</figure>
 
 Las organizaciones que cuentan con una oficina de dirección de proyectos (PMO) o una oficina de entrega de valor (VDO) pueden desempeñar un papel en la revisión y la aprobación de enfoques de entrega adaptados
 
@@ -3896,7 +3908,7 @@ Estos Incluyen, entre otros:
 
 <figcaption>Adaptación del Enfoque para el Proyecto</figcaption>
 
-![]({img34})
+![Image](/img/Economy/img34.JPG)
 
 Estas eliminaciones y adiciones se representan en el Gráfico con una “X” para las eliminaciones y recuadros punteados para la adición de procesos de prueba
 
@@ -3912,7 +3924,7 @@ Los puntos de revisión, las revisiones de fase y las retrospectivas ofrecen la 
 
 <figcaption>Implementar la Mejora Continua</figcaption>
 
-![]({img36})
+![Image](/img/Economy/img36.JPG)
 
 El gráfico añadir, eliminar y cambiar procesos
 
@@ -3922,7 +3934,7 @@ El gráfico añadir, eliminar y cambiar procesos
 
 <figcaption>El Proceso de Adaptación</figcaption>
 
-![]({img37})</figure>
+![Image](/img/Economy/img37.JPG)</figure>
 
 ### Adaptación de los Dominios de Desempeño
 
@@ -3932,7 +3944,7 @@ El trabajo asociado con cada dominio de desempeño también puede adaptarse, en 
 
 <figcaption>Adaptación para Ajustarse al Contexto del Proyecto</figcaption>
 
-![]({img38})</figure>
+![Image](/img/Economy/img38.JPG)</figure>
 
 <table>
 
@@ -4169,7 +4181,7 @@ Si bien el proceso de adaptación suele estar a cargo de los interesados en el p
 
 * * *
 
-{/*CHAPTER 2.4*/} <details><summary classname="h2">Modelos, Métodos y Artefactos</summary> {/*CHAPTER 2.4.1*/}
+<details><summary classname="h2">Modelos, Métodos y Artefactos</summary>
 
 ### DESCRIPCIÓN GENERAL
 
@@ -4211,9 +4223,8 @@ En esta sección se ofrece una descripción de alto nivel de algunos modelos, m�
 
 <figcaption>Adaptación para Ajustarse al Contexto y al Entorno del Proyecto</figcaption>
 
-![]({img39})</figure>
+![Image](/img/Economy/img39.JPG)</figure>
 
-{/*CHAPTER 2.4.2*/}
 
 ### MODELOS COMÚNMENTE UTILIZADOS
 
@@ -4608,7 +4619,9 @@ Las personas se desempeñan mejor cuando están motivadas, y las personas se sie
 
 <tr>
 
-<td>**contextos problemáticos y de toma de decisiones**
+<td>
+
+**contextos problemáticos y de toma de decisiones**
 
 *   Se utilizan las mejores prácticas para tomar decisiones cuando existe una relación obvia de causa y efecto.
 *   Existen relaciones complicadas cuando hay un conjunto de incógnitas conocidas (known unknowns)
@@ -4778,7 +4791,6 @@ Por lo general, se encuentra una perspectiva de ganar-ganar cuando están presen
 
 </table>
 
-{/*CHAPTER 2.4.3*/}
 
 ### MODELOS APLICADOS A TRAVÉS DE LOS DOMINIOS DE DESEMPEÑO
 
@@ -4786,13 +4798,11 @@ Por lo general, se encuentra una perspectiva de ganar-ganar cuando están presen
 
 <figcaption>Mapeo de los Modelos que Probablemente se Usarán en Cada Dominio de Desempeño</figcaption>
 
-![]({img40})
+![Image](/img/Economy/img40.JPG)
 
 En la Tabla se sugiere(n) el(los) dominios de desempeño en los que es más probable que cada modelo sea de utilidad; sin embargo, el director y el equipo del proyecto tienen la responsabilidad última de seleccionar los modelos adecuados para su proyecto.
 
 </figure>
-
-{/*CHAPTER 2.4.4*/}
 
 ### MÉTODOS COMÚNMENTE UTILIZADOS
 
@@ -4802,31 +4812,41 @@ En la Tabla se sugiere(n) el(los) dominios de desempeño en los que es más prob
 
 <div classname="grid-fr l3 m2 s1">
 
-<div classname="box-shadow bx1">**Análisis de alternativas**
+<div classname="card item">
+
+**Análisis de alternativas**
 
 El análisis de alternativas es utilizado para evaluar las opciones identificadas a fin de seleccionar las opciones o enfoques a utilizar para llevar a cabo el trabajo del proyecto.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de supuestos y restricciones**
+<div classname="card item">
+
+**Análisis de supuestos y restricciones**
 
 Un supuesto es un factor que se considera verdadero, real o cierto, sin prueba ni demostración. Una restricción es un factor limitante que afecta la ejecución de un proyecto, programa, portafolio o proceso
 
 </div>
 
-<div classname="box-shadow bx1">**Estudios Comparativos**
+<div classname="card item">
+
+**Estudios Comparativos**
 
 son la comparación de prácticas, procesos y productos reales o planificados con los de organizaciones comparables, lo que identifica las mejores prácticas
 
 </div>
 
-<div classname="box-shadow bx1">**Métodos de análisis de justificación del negocio**
+<div classname="card item">
+
+**Métodos de análisis de justificación del negocio**
 
 son la comparación de prácticas, procesos y productos reales o planificados con los de organizaciones comparables, lo que identifica las mejores prácticas, genera ideas para mejorar y proporciona una base para medir el desempeño.
 
 </div>
 
-<div classname="box-shadow bx1">**Métodos de análisis de justificación del negocio**
+<div classname="card item">
+
+**Métodos de análisis de justificación del negocio**
 
 se asocia con la autorización o justificación de un proyecto o de una decisión. Los resultados de los siguientes análisis se utilizan a menudo en un caso de negocio que justifique la realización de un proyecto:
 
@@ -4838,133 +4858,177 @@ se asocia con la autorización o justificación de un proyecto o de una decisió
 
 </div>
 
-<div classname="box-shadow bx1">**Hoja de verificación**
+<div classname="card item">
+
+**Hoja de verificación**
 
 es una hoja de anotaciones que puede utilizarse como lista de control cuando se recopilan datos.
 
 </div>
 
-<div classname="box-shadow bx1">**Costo de la calidad**
+<div classname="card item">
+
+**Costo de la calidad**
 
 incluye todos los costos en los que se ha incurrido durante la vida del producto a través de inversiones para prevenir el incumplimiento de los requisitos
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis mediante árbol de decisiones.**
+<div classname="card item">
+
+**Análisis mediante árbol de decisiones.**
 
 es un método de diagramación y cálculo para evaluar las implicaciones de una cadena de opciones múltiples en presencia de incertidumbre
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis del valor ganado**
+<div classname="card item">
+
+**Análisis del valor ganado**
 
 es un método de análisis que utiliza un conjunto de mediciones asociadas con el alcance, cronograma y costo para determinar el desempeño del costo y del cronograma de un proyecto
 
 </div>
 
-<div classname="box-shadow bx1">**Valor monetario esperado (EMV)**
+<div classname="card item">
+
+**Valor monetario esperado (EMV)**
 
 es el valor estimado de un resultado expresado en términos monetarios. Se usa para cuantificar el valor de la incertidumbre, como un riesgo, o comparar el valor de alternativas que no son necesariamente equivalentes.
 
 </div>
 
-<div classname="box-shadow bx1">**Pronóstico**
+<div classname="card item">
+
+**Pronóstico**
 
 o es una estimación o predicción de condiciones y eventos futuros para el proyecto, basada en la información y el conocimiento disponibles en el momento de realizar el pronóstico.
 
 </div>
 
-<div classname="box-shadow bx1">**Diagrama de influencias**
+<div classname="card item">
+
+**Diagrama de influencias**
 
 es una representación gráfica de situaciones que muestran las influencias causales, la cronología de eventos y otras relaciones entre las variables y los resultados
 
 </div>
 
-<div classname="box-shadow bx1">**Evaluación del ciclo de vida**
+<div classname="card item">
+
+**Evaluación del ciclo de vida**
 
 es una herramienta utilizada para evaluar el impacto ambiental total de un producto, proceso o sistema. Incluye todos los aspectos de la producción de un entregable del proyecto, desde el origen de los materiales utilizados en el entregable hasta su distribución y eliminación final.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de hacer o comprar**
+<div classname="card item">
+
+**Análisis de hacer o comprar**
 
 es el proceso de recopilar y organizar datos acerca de los requisitos del producto y analizarlos frente a las alternativas disponibles, incluida la compra versus la fabricación interna del producto.
 
 </div>
 
-<div classname="box-shadow bx1">**Matriz de probabilidad e impacto**
+<div classname="card item">
+
+**Matriz de probabilidad e impacto**
 
 es una cuadrícula para vincular la probabilidad de ocurrencia de cada riesgo y su impacto sobre los objetivos del proyecto en caso de que ocurra dicho riesgo.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de procesos**
+<div classname="card item">
+
+**Análisis de procesos**
 
 es una revisión sistemática de los pasos y procedimientos para realizar una actividad
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de regresión**
+<div classname="card item">
+
+**Análisis de regresión**
 
 es una técnica analítica en la que una serie de variables de entrada son examinadas en relación a sus correspondientes resultados de salida a fin de desarrollar una relación matemática o estadística
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de reserva**
+<div classname="card item">
+
+**Análisis de reserva**
 
 se usa para evaluar la cantidad de riesgo del proyecto y la cantidad de reserva de cronograma y de presupuesto para determinar si la reserva es suficiente para el riesgo restante
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de causa raíz**
+<div classname="card item">
+
+**Análisis de causa raíz**
 
 es utilizada para determinar la causa subyacente básica para una variación, un defecto o un riesgo
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de sensibilidad**
+<div classname="card item">
+
+**Análisis de sensibilidad**
 
 se usa para determinar qué riesgos individuales del proyecto u otras fuentes de incertidumbre tienen el mayor impacto posible sobre los resultados del proyecto, mediante la correlación de las variaciones en los resultados del proyecto con las variaciones en los elementos de un modelo cuantitativo de análisis de riesgo.
 
 </div>
 
-<div classname="box-shadow bx1">**Simulación**
+<div classname="card item">
+
+**Simulación**
 
 Esta técnica analítica utiliza modelos para mostrar el efecto combinado de las incertidumbres para evaluar su posible impacto en los objetivos.
 
 *   Una simulación de Monte Carlo es un método para la identificación de los impactos potenciales del riesgo y la incertidumbre utilizando múltiples iteraciones de un modelo computarizado para desarrollar una distribución de probabilidad</div>
 
-<div classname="box-shadow bx1">**Análisis de interesados**
+<div classname="card item">
+
+**Análisis de interesados**
 
 Esta técnica implica recopilar y analizar de manera sistemática información cuantitativa y cualitativa acerca de los interesados, a fin de determinar qué intereses particulares deben tenerse en cuenta a lo largo del proyecto.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis FODA**
+<div classname="card item">
+
+**Análisis FODA**
 
 evalúa las fortalezas, oportunidades, debilidades y amenazas de una organización, proyecto u opción.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de tendencias**
+<div classname="card item">
+
+**Análisis de tendencias**
 
 utiliza modelos matemáticos para pronosticar resultados futuros basado en resultados históricos.
 
 </div>
 
-<div classname="box-shadow bx1">**Mapeo del flujo de valor**
+<div classname="card item">
+
+**Mapeo del flujo de valor**
 
 es un método empresarial “lean” utilizado para documentar, analizar y mejorar el flujo de información o materiales necesarios con el fin de producir un producto o servicio para un cliente.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de variación**
+<div classname="card item">
+
+**Análisis de variación**
 
 El análisis de variación es utilizado para determinar la causa y el grado de diferencia entre la línea base y el desempeño real.
 
 </div>
 
-<div classname="box-shadow bx1">**Análisis de escenarios “¿Qué pasa si…?**
+<div classname="card item">
+
+**Análisis de escenarios “¿Qué pasa si…?**
 
 Esta técnica analítica evalúa escenarios a fin de predecir su efecto sobre los objetivos del proyecto.
 
@@ -4986,55 +5050,73 @@ Esta técnica analítica evalúa escenarios a fin de predecir su efecto sobre lo
 
 <div classname="grid-fr l3 m2 s1">
 
-<div classname="box-shadow bx1">**Agrupamiento de afinidad**
+<div classname="card item">
+
+**Agrupamiento de afinidad**
 
 involucra la clasificación de los elementos en categorías o colecciones similares de acuerdo con su semejanza.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación análoga**
+<div classname="card item">
+
+**Estimación análoga**
 
 evalúa la duración o el costo de una actividad o un proyecto utilizando datos históricos de una actividad o proyecto similar.
 
 </div>
 
-<div classname="box-shadow bx1">**Punto de función**
+<div classname="card item">
+
+**Punto de función**
 
 evalúa la duración o el costo de una actividad o un proyecto utilizando datos históricos de una actividad o proyecto similar.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación multipunto**
+<div classname="card item">
+
+**Estimación multipunto**
 
 es una estimación de la cantidad de funcionalidad comercial en un sistema de información. Los puntos de función se usan para calcular una medida de tamaño funcional (FSM) de un sistema de software.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación paramétrica**
+<div classname="card item">
+
+**Estimación paramétrica**
 
 evalúa el costo o la duración mediante la aplicación de un promedio o promedio ponderado de estimaciones optimistas, pesimistas y más probables, usado cuando existe incertidumbre en las estimaciones de las actividades individuales.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación relativa**
+<div classname="card item">
+
+**Estimación relativa**
 
 utiliza un algoritmo para calcular el costo o la duración con base en datos históricos y parámetros del proyecto.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación puntual**
+<div classname="card item">
+
+**Estimación puntual**
 
 es usada para crear estimaciones que se derivan de la realización de una comparación con un conjunto de trabajos similares, teniendo en cuenta el esfuerzo, la complejidad y la incertidumbre.
 
 </div>
 
-<div classname="box-shadow bx1">**Estimación por punto de historia**
+<div classname="card item">
+
+**Estimación por punto de historia**
 
 implica que los miembros del equipo del proyecto asignen puntos de esfuerzo abstractos, pero relativos, requeridos para implementar una historia de usuario.
 
 </div>
 
-<div classname="box-shadow bx1">**Delphi de banda ancha (Wideband Delphi)**
+<div classname="card item">
+
+**Delphi de banda ancha (Wideband Delphi)**
 
 es una variación del método de estimación Delphi, en el que los expertos en la materia completan múltiples rondas de producción de estimaciones de forma individual, con un debate del equipo del proyecto después de cada ronda, hasta que se llega a un consenso.
 
@@ -5048,97 +5130,129 @@ El póker de planificación (“planning poker”) es una variación del Delphi 
 
 <div classname="grid-fr l3 m2 s1">
 
-<div classname="box-shadow bx1">**Perfeccionamiento de la lista de trabajo pendiente (Backlog refinement)**
+<div classname="card item">
+
+**Perfeccionamiento de la lista de trabajo pendiente (Backlog refinement)**
 
 la lista de trabajo pendiente es elaborada progresivamente y repriorizada para identificar el trabajo que se puede realizar en una próxima iteración
 
 </div>
 
-<div classname="box-shadow bx1">**Conferencia de oferentes**
+<div classname="card item">
+
+**Conferencia de oferentes**
 
 Reuniones con posibles vendedores previas a la preparación de una licitación o propuesta
 
 </div>
 
-<div classname="box-shadow bx1">**Comité de control de cambios**
+<div classname="card item">
+
+**Comité de control de cambios**
 
 incluye al grupo de personas que son responsables de revisar, evaluar, aprobar, retrasar o rechazar los cambios del proyecto.
 
 </div>
 
-<div classname="box-shadow bx1">**Reunión diaria de pie (daily standup)**
+<div classname="card item">
+
+**Reunión diaria de pie (daily standup)**
 
 revisa su progreso desde el día anterior, declara sus intenciones para el día actual y destaca los obstáculos encontrados o previstos
 
 </div>
 
-<div classname="box-shadow bx1">**Planificación de la iteración**
+<div classname="card item">
+
+**Planificación de la iteración**
 
 es realizada para aclarar los detalles de los ítems de la lista de trabajo pendiente para cumplir con un compromiso de iteración próximo. Esta reunión también puede ser mencionada como una reunión de planificación de “sprint”.
 
 </div>
 
-<div classname="box-shadow bx1">**Revisión de la iteración**
+<div classname="card item">
+
+**Revisión de la iteración**
 
 es celebrada al final de una iteración para demostrar el trabajo realizado durante la misma.
 
 </div>
 
-<div classname="box-shadow bx1">**Lanzamiento**
+<div classname="card item">
+
+**Lanzamiento**
 
 es un encuentro de los miembros del equipo de proyecto y otros interesados clave al comienzo de un proyecto con el fin de establecer formalmente las expectativas, obtener un entendimiento común y dar comienzo al trabajo. Establece el inicio de un proyecto, fase o iteración.
 
 </div>
 
-<div classname="box-shadow bx1">**Reunión de lecciones aprendidas**
+<div classname="card item">
+
+**Reunión de lecciones aprendidas**
 
 se utiliza para identificar y compartir los conocimientos adquiridos durante un proyecto
 
 </div>
 
-<div classname="box-shadow bx1">**Reunión de planificación**
+<div classname="card item">
+
+**Reunión de planificación**
 
 se utiliza para crear, elaborar o revisar un plan o planes y garantizar el compromiso para el plan o planes.
 
 </div>
 
-<div classname="box-shadow bx1">**Cierre del proyecto**
+<div classname="card item">
+
+**Cierre del proyecto**
 
 se utiliza para obtener la aceptación final del alcance entregado por parte del patrocinador, el dueño del producto o el cliente. Esta reunión indica que la entrega del producto está completa.
 
 </div>
 
-<div classname="box-shadow bx1">**Revisión del proyecto**
+<div classname="card item">
+
+**Revisión del proyecto**
 
 es un evento al final de una fase o un proyecto para evaluar el estado, el valor entregado y determinar si el proyecto está listo para pasar a la siguiente fase o para hacer la transición a operaciones.
 
 </div>
 
-<div classname="box-shadow bx1">**Planificación de la liberación**
+<div classname="card item">
+
+**Planificación de la liberación**
 
 identifican un plan de alto nivel con miras a la liberación o la transición de un producto, entregable o incremento de valor.
 
 </div>
 
-<div classname="box-shadow bx1">**Retrospectiva**
+<div classname="card item">
+
+**Retrospectiva**
 
 es un taller que ocurre periódicamente, en el que los participantes exploran su trabajo y sus resultados con el fin de mejorar tanto el proceso como el producto.
 
 </div>
 
-<div classname="box-shadow bx1">**Revisión del riesgo**
+<div classname="card item">
+
+**Revisión del riesgo**
 
 Esto incluye determinar si el riesgo todavía está activo y si se han producido cambios en los atributos del riesgo (como la probabilidad, el impacto, la urgencia, etc.). Las respuestas al riesgo se evalúan para determinar si son efectivas o deben actualizarse.
 
 </div>
 
-<div classname="box-shadow bx1">**Reunión de estatus**
+<div classname="card item">
+
+**Reunión de estatus**
 
 es un evento programado periódicamente para intercambiar y analizar información sobre el progreso actual del proyecto y su desempeño.
 
 </div>
 
-<div classname="box-shadow bx1">**Comité de dirección**
+<div classname="card item">
+
+**Comité de dirección**
 
 donde interesados sénior proporcionan dirección y apoyo al equipo del proyecto y toman decisiones fuera de la autoridad del equipo de proyecto.
 
@@ -5152,31 +5266,41 @@ donde interesados sénior proporcionan dirección y apoyo al equipo del proyecto
 
 <div classname="grid-fr l3 m2 s1">
 
-<div classname="box-shadow bx1">**Mapeo de impacto**
+<div classname="card item">
+
+**Mapeo de impacto**
 
 es un método de planificación estratégica que sirve como una hoja de ruta visual para la organización, durante el desarrollo del producto.
 
 </div>
 
-<div classname="box-shadow bx1">**Modelado**
+<div classname="card item">
+
+**Modelado**
 
 es el proceso de creación de representaciones simplificadas de sistemas, soluciones o entregables, tales como prototipos, diagramas o guiones gráficos.
 
 </div>
 
-<div classname="box-shadow bx1">**Puntuación Neta del Promotor (Net Promoter Score®, NPS®)**
+<div classname="card item">
+
+**Puntuación Neta del Promotor (Net Promoter Score®, NPS®)**
 
 Índice que mide la voluntad de los clientes para recomendar a otros los productos o servicios de una organización.
 
 *   Indicador para medir la satisfacción general del cliente con el producto o servicio</div>
 
-<div classname="box-shadow bx1">**Esquema de priorización**
+<div classname="card item">
+
+**Esquema de priorización**
 
 son métodos utilizados para priorizar el portafolio, el programa o los componentes del proyecto, así como los requisitos, riesgos, características u otra información del producto.
 
 </div>
 
-<div classname="box-shadow bx1">**Período de Tiempo Preestablecido**
+<div classname="card item">
+
+**Período de Tiempo Preestablecido**
 
 Un período de tiempo preestablecido es un período corto y fijo de tiempo en el que se debe completar el trabajo, como una semana, dos semanas o un mes.
 
@@ -5184,15 +5308,13 @@ Un período de tiempo preestablecido es un período corto y fijo de tiempo en el
 
 </div>
 
-{/*CHAPTER 2.4.5*/}
-
 ### MÉTODOS APLICADOS A TRAVÉS DE LOS DOMINIOS DE DESEMPEÑO
 
 <figure>
 
 <figcaption>Mapeo de los Métodos que Probablemente se Usarán en Cada Dominio de Desempeño</figcaption>
 
-![]({img41})
+![Image](/img/Economy/img41.JPG)
 
 En la Tabla se sugiere(n) el(los) dominio(s) de desempeño en los que es más probable que cada método sea de utilidad; sin embargo, el director y/o el equipo del proyecto tienen la responsabilidad última de seleccionar los métodos adecuados para su proyecto.
 
@@ -5202,9 +5324,8 @@ En la Tabla se sugiere(n) el(los) dominio(s) de desempeño en los que es más pr
 
 <figcaption>Mapeo de los Métodos que Probablemente se Usarán en cada Dominio de Desempeño (cont.)</figcaption>
 
-![]({img42})</figure>
+![Image](/img/Economy/img42.JPG)</figure>
 
-{/*CHAPTER 2.4.6*/}
 
 ### ARTEFACTOS COMÚNMENTE UTILIZADOS
 
@@ -5920,7 +6041,6 @@ En la Tabla se sugiere(n) el(los) dominio(s) de desempeño en los que es más pr
 
 </table>
 
-{/*CHAPTER 2.4.7*/}
 
 ### ARTEFACTOS APLICADOS A TRAVÉS DE LOS DOMINIOS DE DESEMPEÑO
 
@@ -5928,26 +6048,22 @@ En la Tabla se sugiere(n) el(los) dominio(s) de desempeño en los que es más pr
 
 <figcaption>Mapeo de los Artefactos que Probablemente se Usarán en Cada Dominio de Desempeño</figcaption>
 
-![]({img43})</figure>
+![Image](/img/Economy/img43.JPG)</figure>
 
 <figure>
 
 <figcaption>Mapeo de los Artefactos que Probablemente se Usarán en Cada Dominio de Desempeño (cont.)</figcaption>
 
-![]({img44})</figure>
+![Image](/img/Economy/img44.JPG)</figure>
 
 <figure>
 
 <figcaption>Mapeo de los Artefactos que Probablemente se Usarán en Cada Dominio de Desempeño (cont.)</figcaption>
 
-![]({img45})</figure>
+![Image](/img/Economy/img45.JPG)</figure>
 
 </details>
 
-* * *
-
 
 # APÉNDICE
-
-</article>
 

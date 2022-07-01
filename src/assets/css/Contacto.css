@@ -39,10 +39,7 @@
     margin:0rem;
     padding:0.5rem;
 }
-.contacto__container-box__form form button {
-    background-color: var(--color2);
-    color:var(--white);
-}
+
 .contacto__container-box__form form textarea {
     resize: vertical;
 }
