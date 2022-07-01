@@ -36,9 +36,8 @@ export default function PostPage({
 
     return (
         <>
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js" />
-            <Script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-python.min.js" />
             
+
             <section className="container__medium container__post">
 
                 <main className="container__post-info" >

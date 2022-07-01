@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Elizabeth Peredi</title>
+                <title>Elizabeth Peredo</title>
                 <meta charset="utf-8" />
                 <meta name="keywords" content="elizabeth peredo mescco, elizabeth peredo, blog" />
                 <meta name="author" content="Elizabet Peredo" />

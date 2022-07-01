@@ -1,7 +1,8 @@
 import Link from "next/link";
 
-export default function FilterCard({ post }) {
+export default function FilterCard() {
     filterSelection("all")
+
     function filterSelection(c) {
         if (typeof window === 'object') {
             let x, i;
