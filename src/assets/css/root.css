@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Signika+Negative:wght@300;400;500;600;700&family=Staatliches&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Monoton&family=Rubik+Wet+Paint&family=Skranji:wght@400;700&display=swap');
+
 /* =================
 *VARIABLES*
 =================*/
@@ -97,15 +98,15 @@
   /* =================
 * FONTS *
 =================*/
-  --font-title:'Poppins',"Noto Sans Display","Secular One","Glory", cursive;
-  --font-subtitle1: 'Poppins',"Noto Sans Display","Glory", cursive;
-  --font-subtitle2:'Staatliches','Bebas Neue', 'Poppins',"Noto Sans Display","Glory",cursive;
-  --font-body:'Red Hat Display','Signika Negative', 'Quicksand', 'Oxygen','Fira Sans Condensed','Comfortaa','Bebas Neue','Assistant','Poppins','Inter','Jost','Anek Latin','Gothic A1','BIZ UDGothic',"Oxygen",'Montserrat Alternates',"Poppins", sans-serif;
+  --font-title: 'Poppins', "Noto Sans Display", "Secular One", "Glory", cursive;
+  --font-subtitle1: 'Poppins', "Noto Sans Display", "Glory", cursive;
+  --font-subtitle2: 'Staatliches', 'Bebas Neue', 'Poppins', "Noto Sans Display", "Glory", cursive;
+  --font-body: 'Red Hat Display', 'Signika Negative', 'Quicksand', 'Oxygen', 'Fira Sans Condensed', 'Comfortaa', 'Bebas Neue', 'Assistant', 'Poppins', 'Inter', 'Jost', 'Anek Latin', 'Gothic A1', 'BIZ UDGothic', "Oxygen", 'Montserrat Alternates', "Poppins", sans-serif;
   --font-banner: "Josefin Sans", cursive;
   --font-logo: 'Skranji', 'Rubik Wet Paint', "Glory", cursive;
   --font-code: 'Fira Code', monospace;
   --font-size: 1.2rem;
-  
+
 
 
   /* =================
@@ -129,19 +130,40 @@
   /* =================
 * COLOR *
 =================*/
---color1: #05a5ff;
---color2: #a4e54b;
+  --color1: #05a5ff;
+  --color2: #a4e54b;
   --color11: white;
   --color22: #2c2c2c;
   --color-nav: var(--black);
   /* *BACKGROUND* */
   --bg-navbar: var(--white);
-  --bg-header: #1b1b20;
-  --bg-footer: #1b1b20;
+  --bg-header: var(--black);
+  --bg-footer: var(--black);
   --bg_banner: var(--white);
-  --bg_card: rgba(155,183,252,0.2);
+  --bg_card: rgba(155, 183, 252, 0.2);
 }
 
+.theme-dark {
+  --black: #1f1f1f;
+  --white: #fff;
+
+  --color1: #05a5ff;
+  --color2: #a4e54b;
+  --color11: white;
+  --color22: #2c2c2c;
+  --color-nav: var(--black);
+
+  --bg-navbar: var(--white);
+  --bg-header: var(--black);
+  --bg-footer: var(--black);
+  --bg_banner: var(--white);
+  --bg_card: rgba(155, 183, 252, 0.2);
+
+  --background-body: var(--white);
+  --background-nav: var(--white);
+
+  
+}
 /*====================
 * THEME *
 ==================== */
@@ -190,14 +212,16 @@
   --font-body: "Body", sans-serif;
   --font-banner: "Banner", cursive;
 }*/
-.theme-color1{
+.theme-color1 {
   --color1: #05a5ff;
   --color2: #a4e54b;
 }
-.theme-color2{
+
+.theme-color2 {
   --color1: var(--teal-old);
   --color2: var(--yellow);
 }
+
 .theme-blue {
   --color1: var(--blue);
   --color2: var(--pale-blue);
@@ -247,11 +271,7 @@
   background-color: var(--background-body);
 }
 
-.theme-dark {
-  --white: #000;
-  --black: #fff;
-  --background-body: black;
-}
+
 
 #dark {
   padding: 0em;

@@ -5,7 +5,7 @@
 :root {
   --navbar-height: 10px;
 }
-
+body,
 .banner__container {
   position: relative;
   width: 100%;

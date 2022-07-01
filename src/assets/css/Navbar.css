@@ -3,7 +3,7 @@
 ====================*/
 navbar {
   color: var(--color11);
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   display: inline-block;
 }
 
@@ -20,6 +20,7 @@ navbar {
   align-items: center;
   z-index: 1000;
   height: 3rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar__logo {
@@ -37,13 +38,19 @@ navbar {
   color: var(--black);
   cursor: pointer;
   text-align: left;
+}
 
+.navbar__container-right {
+  display: flex;
+  align-items: stretch;
 }
 
 .navbar__icon {
   display: none;
 }
 
+.navbar__icon-dark i,
+.navbar__icon-dark .i,
 .navbar__icon i,
 .navbar__icon .i {
   cursor: pointer;
@@ -58,6 +65,8 @@ navbar {
   padding: 0.5rem;
 }
 
+.navbar__icon-dark i:hover,
+.navbar__icon-dark .i:hover,
 .navbar__icon i:hover,
 .navbar__icon .i:hover {
   transform: rotate(360deg);
@@ -107,11 +116,6 @@ navbar {
   display: block;
 }
 
-@media (max-width: 1400px) {
-  .navbar__container {
-    padding: 0.5rem 0.5rem;
-  }
-}
 
 @media (max-width: 1024px) {
   .navbar {

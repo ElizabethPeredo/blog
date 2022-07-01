@@ -2,12 +2,13 @@
     **FOOTER **
 ====================*/
 .footer__container {
-    color: var(--color11);
+    background: var(--white);
+    color: var(--black);
     padding: 1rem;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
     text-align: center;
 }
 

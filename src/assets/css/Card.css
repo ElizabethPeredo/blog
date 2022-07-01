@@ -33,6 +33,7 @@
   transition: all 300ms ease-in-out;
   display: none;
   float: left;
+  box-shadow: var(--box-shadow);
 }
 
 .show {
