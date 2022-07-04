@@ -1,17 +1,15 @@
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
 
 export default function About() {
     return (
-        <section className="about__container">
-            <section className="about__container-box">
-                <div className="about__container-box__info">
+        <section className="container color2">
+            <section className="container__medium min-height-25 grid grid-fr l2 s1 center">
+                <div className="container txt-color22-all">
                     <h2>ABOUT</h2>
                     <p>lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor sit am lorem ipsum dolor sit am lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor sit am lorem ipsum dolor sit am lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor sit am lorem ipsum dolor </p>
-                    
                 </div>
-                <div className="about__container-box__img">
+                <div className="min-height-25 max-height-25 box-shadow-lines overflow-hidden">
+                    <img src="/img/Landing/banner2.jpg" />
                 </div>
             </section>
         </section>

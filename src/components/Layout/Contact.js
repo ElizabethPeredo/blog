@@ -1,14 +1,13 @@
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Contact() {
     return (
-        <section className="contacto__container">
-            <section className="contacto__container-box">
-                <div className="contacto__container-box__img">
+        <section className="container color1">
+            <section className="container__medium min-height-25 grid grid-fr l2 s1">
+                <div className="min-height-25 max-height-25 box-shadow-lines overflow-hidden s-hidden">
+                    <img src="/img/Landing/banner3.jpg" />
                 </div>
-                <div className="contacto__container-box__form">
+                <div className="container">
                     <h2>CONTACTO</h2>
                     <form action="">
                         <input type="text" className="" placeholder="Nombre" />

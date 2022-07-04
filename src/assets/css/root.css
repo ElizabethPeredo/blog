@@ -162,9 +162,74 @@
   --background-body: var(--white);
   --background-nav: var(--white);
 
-  
+
 }
-/*====================
+
+/* ====================
+* BOX SHADOW *
+==================== */
+.box-shadow {
+  box-shadow: var(--box-shadow);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.box-shadow-lines {
+  box-shadow: var(--box-shadow-lines);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.box-shadow-lines img,
+.box-shadow img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* ====================
+* HEIGH *
+==================== */
+.height-15 {
+  height: 15rem;
+}
+
+.height-25 {
+  height: 25rem;
+}
+
+.height-50 {
+  height: 50rem;
+}
+
+.min-height-15 {
+  min-height: 15rem;
+}
+
+.min-height-25 {
+  min-height: 25rem;
+}
+
+.min-height-50 {
+  min-height: 50rem;
+}
+
+.max-height-15 {
+  max-height: 15rem;
+}
+
+.max-height-25 {
+  max-height: 25rem;
+}
+
+.max-height-50 {
+  max-height: 50rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+/* ====================
 * THEME *
 ==================== */
 .bg-color1,
@@ -193,13 +258,13 @@
   color: white;
 }
 
-.text-color1,
-.hover_text-color1:hover {
+.txt-color1,
+.hover_txt-color1:hover {
   color: var(--color1);
 }
 
-.text-color2,
-.hover_text-color2:hover {
+.txt-color2,
+.hover_txt-color2:hover {
   color: var(--color2);
 }
 
@@ -281,4 +346,426 @@
 
 #dark:hover {
   background: transparent;
+}
+
+/* =================
+*COLORS*
+=================*/
+
+/**BACKGROUND**/
+color1,
+.color1,
+.hover-color1:hover {
+  color: var(--color22);
+  background-color: var(--color1);
+  padding: 0.1em;
+  font-weight: 500;
+}
+
+color2,
+.color2,
+.hover-color2:hover {
+  color: var(--color22);
+  background-color: var(--color2);
+  padding: 0.1em;
+}
+
+white,
+.white,
+.hover-white:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+black,
+.black,
+.hover-black:hover {
+  color: var(--white);
+  background-color: var(--black);
+}
+
+blue,
+.blue,
+.hover-blue:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+light-blue,
+.light-blue,
+.hover-light-blue:hover {
+  color: var(--black);
+  background-color: var(--light-blue);
+}
+
+green,
+.green,
+.hover-green:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+teal,
+.teal,
+.hover-teal:hover {
+  color: var(--white);
+  background-color: var(--teal);
+}
+
+yellow,
+.yellow,
+.hover-yellow:hover {
+  color: var(--black);
+  background-color: var(--yellow);
+}
+
+red,
+.red,
+.hover-red:hover {
+  color: white;
+  background-color: var(--red);
+}
+
+pink.pink,
+.hover-pink:hover {
+  color: white;
+  background-color: var(--pink);
+}
+
+purple.purple,
+.hover-purple:hover {
+  color: white;
+  background-color: var(--purple);
+}
+
+orange.orange,
+.hover-orange:hover {
+  color: white;
+  background-color: var(--orange);
+}
+
+brown.brown,
+.hover-brown:hover {
+  color: white;
+  background-color: var(--brown);
+}
+
+grey.grey,
+.hover-grey:hover,
+.gray,
+.hover-gray:hover {
+  color: black;
+  background-color: var(--gray);
+}
+
+pale-blue,
+.pale-blue,
+.hover-blue:hover {
+  color: black;
+  background-color: var(--pale-blue);
+}
+
+pale-green,
+.pale-green,
+.hover-green:hover {
+  color: black;
+  background-color: var(--pale-green);
+}
+
+pale-teal,
+.pale-teal,
+.hover-teal:hover {
+  color: black;
+  background-color: var(--pale-teal);
+}
+
+.pale-yellow,
+.hover-yellow:hover {
+  color: black;
+  background-color: var(--pale-yellow);
+}
+
+.pale-red,
+.hover-red:hover {
+  color: black;
+  background-color: var(--pale-red);
+}
+
+.pale-pink,
+.hover-pink:hover {
+  color: black;
+  background-color: var(--pale-pink);
+}
+
+.pale-purple,
+.hover-purple:hover {
+  color: black;
+  background-color: var(--pale-purple);
+}
+
+.pale-orange,
+.hover-orange:hover {
+  color: black;
+  background-color: var(--pale-orange);
+}
+
+.pale-brown,
+.hover-brown:hover {
+  color: black;
+  background-color: var(--pale-brown);
+}
+
+.light-gray,
+.hover-light-gray:hover {
+  color: black;
+  background-color: var(--light-gray);
+}
+
+/**TEXT**/
+.txt-color11,
+.txt-color11-all *,
+.txt-hover-color11:hover {
+  color: var(--color11);
+}
+.txt-color22,
+.txt-color22-all *,
+.txt-hover-color22:hover {
+  color: var(--color22);
+}
+.txt-white,
+.txt-hover-white:hover {
+  color: var(--white);
+}
+
+.txt-black,
+.txt-hover-black:hover {
+  color: var(--black);
+}
+
+.txt-blue,
+.txt-hover-blue:hover {
+  color: var(--blue);
+}
+
+.txt-light-blue,
+.txt-hover-light-blue:hover {
+  color: var(--light-blue);
+}
+
+.txt-green,
+.txt-hover-green:hover {
+  color: var(--green);
+}
+
+.txt-teal,
+.txt-hover-teal:hover {
+  color: var(--teal);
+}
+
+.txt-yellow,
+.txt-hover-yellow:hover {
+  color: var(--yellow);
+}
+
+.txt-red,
+.txt-hover-red:hover {
+  color: var(--red);
+}
+
+.txt-pink,
+.txt-hover-pink:hover {
+  color: var(--pink);
+}
+
+.txt-purple,
+.txt-hover-purple:hover {
+  color: var(--purple);
+}
+
+.txt-orange,
+.txt-hover-orange:hover {
+  color: var(--orange);
+}
+
+.txt-brown,
+.txt-hover-brown:hover {
+  color: var(--brown);
+}
+
+.txt-gray,
+.txt-hover-gray:hover {
+  color: var(--gray);
+}
+
+.txt-pale-blue,
+.txt-hover-blue:hover {
+  color: var(--pale-blue);
+}
+
+.txt-pale-green,
+.txt-hover-green:hover {
+  color: var(--pale-green);
+}
+
+.txt-pale-teal,
+.txt-hover-teal:hover {
+  color: var(--pale-teal);
+}
+
+.txt-pale-yellow,
+.txt-hover-yellow:hover {
+  color: var(--pale-yellow);
+}
+
+.txt-pale-red,
+.txt-hover-red:hover {
+  color: var(--pale-red);
+}
+
+.txt-pale-pink,
+.txt-hover-pink:hover {
+  color: var(--pale-pink);
+}
+
+.txt-pale-purple,
+.txt-hover-purple:hover {
+  color: var(--pale-purple);
+}
+
+.txt-pale-orange,
+.txt-hover-orange:hover {
+  color: var(--pale-orange);
+}
+
+.txt-pale-brown,
+.txt-hover-brown:hover {
+  color: var(--pale-brown);
+}
+
+.txt-light-gray,
+.txt-hover-light-gray:hover {
+  color: var(--light-gray);
+}
+
+/**BORDER**/
+.border-color1,
+.border-hover-color1:hover {
+  border: solid 0.2em var(--color1);
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.border-white,
+.border-hover-white:hover {
+  border: solid 0.3em var(--white);
+}
+
+.border-black,
+.border-hover-black:hover {
+  border: solid 0.3em var(--black);
+}
+
+.border-blue,
+.border-hover-blue:hover {
+  border: solid 0.3em var(--blue);
+}
+
+.border-light-blue,
+.border-hover-light-blue:hover {
+  border: solid 0.3em var(--light-blue);
+}
+
+.border-green,
+.border-hover-green:hover {
+  border: solid 0.3em var(--green);
+}
+
+.border-teal,
+.border-hover-teal:hover {
+  border: solid 0.3em var(--teal);
+}
+
+.border-yellow,
+.border-hover-yellow:hover {
+  border: solid 0.3em var(--yellow);
+}
+
+.border-red,
+.border-hover-red:hover {
+  border: solid 0.3em var(--red);
+}
+
+.border-pink,
+.border-hover-pink:hover {
+  border: solid 0.3em var(--pink);
+}
+
+.border-purple,
+.border-hover-purple:hover {
+  border: solid 0.3em var(--purple);
+}
+
+.border-orange,
+.border-hover-orange:hover {
+  border: solid 0.3em var(--orange);
+}
+
+.border-brown,
+.border-hover-brown:hover {
+  border: solid 0.3em var(--brown);
+}
+
+.border-gray,
+.border-hover-gray:hover {
+  border: solid 0.3em var(--gray);
+}
+
+.border-pale-blue,
+.border-hover-blue:hover {
+  border: solid 0.3em var(--pale-blue);
+}
+
+.border-pale-green,
+.border-hover-green:hover {
+  border: solid 0.3em var(--pale-green);
+}
+
+.border-pale-teal,
+.border-hover-teal:hover {
+  border: solid 0.3em var(--pale-teal);
+}
+
+.border-pale-yellow,
+.border-hover-yellow:hover {
+  border: solid 0.3em var(--pale-yellow);
+}
+
+.border-pale-red,
+.border-hover-red:hover {
+  border: solid 0.3em var(--pale-red);
+}
+
+.border-pale-pink,
+.border-hover-pink:hover {
+  border: solid 0.3em var(--pale-pink);
+}
+
+.border-pale-purple,
+.border-hover-purple:hover {
+  border: solid 0.3em var(--pale-purple);
+}
+
+.border-pale-orange,
+.border-hover-orange:hover {
+  border: solid 0.3em var(--pale-orange);
+}
+
+.border-pale-brown,
+.border-hover-brown:hover {
+  border: solid 0.3em var(--pale-brown);
+}
+
+.border-light-gray,
+.border-hover-light-gray:hover {
+  border: solid 0.3em var(--light-gray);
 }

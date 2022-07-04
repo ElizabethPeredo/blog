@@ -5,6 +5,7 @@ import matter from 'gray-matter'
 import { marked } from 'marked'
 import PostContainer from '../../src/containers/PostContainer/PostContainer'
 import BtnBuyMeCoffee from '../../src/components/Button/BtnBuyMeCoffee'
+import Modal from '../../src/components/Modal/Modal'
 import prismjs from "prismjs";
 import Script from 'next/script'
 
@@ -36,8 +37,6 @@ export default function PostPage({
 
     return (
         <>
-            
-
             <section className="container__medium container__post">
 
                 <main className="container__post-info" >
@@ -58,6 +57,7 @@ export default function PostPage({
                 </section>
             </PostContainer>
             <BtnBuyMeCoffee />
+            <Modal/>
         </>
     )
 }

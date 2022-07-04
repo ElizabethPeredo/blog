@@ -1,5 +1,6 @@
 import Navbar from '../src/components/Header/Navbar/Navbar';
 import Footer from '../src/components/Footer/Footer';
+import Modal from '../src/components/Modal/Modal';
 import css from '../src/assets/css/global.css';
 import '@fortawesome/fontawesome-svg-core/styles.css'; //importing font awesome css
 import { config } from '@fortawesome/fontawesome-svg-core';

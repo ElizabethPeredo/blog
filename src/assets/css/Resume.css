@@ -7,21 +7,23 @@
     margin: 1rem auto;
     box-shadow: var(--box-shadow);
     background: var(--white);
-    
-}
-.container__resume p,
-.container__resume li{
-    font-size:1rem;
-    line-height:1.5rem;
-}
-.container__resume h1{
-    font-size:1.7rem;
-}
-.container__resume h2{
-    font-size:1.3rem;
 }
 
-.container__resume ul{
+.container__resume p,
+.container__resume li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.container__resume h1 {
+    font-size: 1.7rem;
+}
+
+.container__resume h2 {
+    font-size: 1.3rem;
+}
+
+.container__resume ul {
     padding: 0rem;
 }
 
@@ -202,29 +204,31 @@
     background: var(--color1);
 }
 
-.btn-print{
+.btn-print {
     display: flex;
     justify-content: center;
-    height:1rem;
+    height: 1rem;
 }
-.btn-print *{
-    max-height:1.3rem;
+
+.btn-print * {
+    max-height: 1.3rem;
     max-width: 1.3rem;
-    min-height:1.3rem;
+    min-height: 1.3rem;
     min-width: 1.3rem;
-    z-index:2;
-    border-radius: 50%; 
-    background: var(--color1); 
+    z-index: 2;
+    border-radius: 50%;
+    background: var(--color1);
     color: var(--color11);
-    padding: 1rem;  
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
     .container__resume {
         min-width: 100%;
-        max-height:100%;
+        max-height: 100%;
         box-shadow: none;
     }
+
     .container__resume-left-right {
         width: 100%;
         grid-template-columns: 1fr;
@@ -285,28 +289,33 @@
 }
 
 @media only print {
-    :root{
+    :root {
         --white: var(--white);
         --black: var(--black);
     }
+
     @page {
-        size: A4; /* DIN A4 standard, Europe */
-        margin:0;
-      }
-    .container__resume *{
-        color:black;
+        size: A4;
+        /* DIN A4 standard, Europe */
+        margin: 0;
     }
+
+    .container__resume * {
+        color: black;
+    }
+
     .container__resume,
     .container__resume-left-right {
-        max-height: 297mm;
-        max-width: 210mm;
+        max-height: 297mm !important;
+        max-width: 210mm !important;
         min-height: 297mm !important;
         min-width: 210mm !important;
         box-shadow: none;
         grid-template-columns: 1fr 2fr;
-        margin: 0em !important;
-        padding: 0em !important;
+        /*margin: 0em !important;*/
+        /*padding: 0em !important;*/
     }
+
     header,
     footer,
     .btn-print {

@@ -309,7 +309,7 @@ export default function CV() {
                                         <ul>
                                             <li>Módulo 1: Operador de Computadoras
                                                 <a className="image-link"
-                                                    href="./img/certificates/Modulo1.JPG"
+                                                    href="/img/Certificates/Modulo1.JPG"
                                                     alt="">
                                                 </a>
                                                 <a className=""><FontAwesomeIcon icon={faLink} />
@@ -317,16 +317,17 @@ export default function CV() {
                                             </li>
 
                                             <li>Módulo 2: Operador de sistemas contables
-                                                <a className="image-link"
-                                                    href="./img/certificates/Modulo2.JPG"
+                                                <a className="image-link myImages"
+                                                    href="/img/Certificates/Modulo2.JPG"
                                                     alt="">
                                                 </a>
+                        
                                                 <a className=""><FontAwesomeIcon icon={faLink} />
                                                 </a>
                                             </li>
                                             <li>Módulo 3: Técnico en redes
                                                 <a className="image-link"
-                                                    href="./img/certificates/Modulo3.JPG"
+                                                    href="/img/Certificates/Modulo3.JPG"
                                                     alt="">
                                                 </a>
                                                 <a className=""><FontAwesomeIcon icon={faLink} />
@@ -335,7 +336,7 @@ export default function CV() {
                                             </li>
                                             <li>Módulo 4: Programador de computadoras
                                                 <a className="image-link"
-                                                    href="./img/certificates/Modulo4.jpg"
+                                                    href="/img/Certificates/Modulo4.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className=""><FontAwesomeIcon icon={faLink} />
@@ -377,7 +378,7 @@ export default function CV() {
                                     <div className="info">
                                         <h2>Competencias Digitales y tecnologías de información
                                             <a className="image-link"
-                                                href="./img/certificates/cenfoti_uac.JPG">
+                                                href="/img/Certificates/cenfoti_uac.JPG">
                                             </a>
                                             <a className=""><FontAwesomeIcon icon={faLink} />
                                             </a>
@@ -404,7 +405,7 @@ export default function CV() {
                                         <h2>1. Proyectos:</h2>
                                         <ul>
                                             <li>Contrataciones del Estado
-                                                <a href="./img/certificates/C1.jpg">
+                                                <a href="/img/Certificates/C1.jpg">
                                                 </a>
                                                 <a className="">
                                                     <FontAwesomeIcon icon={faLink} />
@@ -412,7 +413,7 @@ export default function CV() {
                                             </li>
 
                                             <li>Curso de Fundamentos de Gestión de Proyectos
-                                                <a href="./img/certificates/diploma-gestion-1.png">
+                                                <a href="/img/Certificates/diploma-gestion-1.png">
                                                 </a>
                                                 <a className="">
                                                     <FontAwesomeIcon icon={faLink} />
@@ -420,7 +421,7 @@ export default function CV() {
                                             </li>
 
                                             <li>Curso de Gestión de Proyectos con PMBOK
-                                                <a href="./img/certificates/diploma-proyectos-pmbok-1.png">
+                                                <a href="/img/Certificates/diploma-proyectos-pmbok-1.png">
                                                 </a>
                                                 <a className="">
                                                     <FontAwesomeIcon icon={faLink} />
@@ -428,7 +429,7 @@ export default function CV() {
                                             </li>
 
                                             <li>Curso de Planificación de Proyectos
-                                                <a href="./img//certificates/diploma-planificacion-proyectos-1.png">
+                                                <a href="/img//Certificates/diploma-planificacion-proyectos-1.png">
                                                 </a>
                                                 <a className="">
                                                     <FontAwesomeIcon icon={faLink} />
@@ -436,7 +437,7 @@ export default function CV() {
                                             </li>
 
                                             <li>Curso de Seguimiento y Cierre de Proyectos
-                                                <a href="./img/certificates/diploma-seguimiento-proyectos-1.png">
+                                                <a href="/img/Certificates/diploma-seguimiento-proyectos-1.png">
                                                 </a>
                                                 <a className="">
                                                     <FontAwesomeIcon icon={faLink} />
@@ -461,7 +462,7 @@ export default function CV() {
                                             <h2>Python</h2>
                                             <li>Curso Básico de Python
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-python_001.jpg"
+                                                    href="/img/Certificates/diploma-python_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -471,7 +472,7 @@ export default function CV() {
 
                                             <li>Curso de Python Intermedio
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-python-intermedio_001.jpg"
+                                                    href="/img/Certificates/diploma-python-intermedio_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -483,7 +484,7 @@ export default function CV() {
 
                                             <li>Curso Básico de JavaScript
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-basico-javascript_001.jpg"
+                                                    href="/img/Certificates/diploma-basico-javascript_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -493,7 +494,7 @@ export default function CV() {
 
                                             <li>FrontEnd Developer
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-frontend-developer-2019_001.jpg"
+                                                    href="/img/Certificates/diploma-frontend-developer-2019_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -504,7 +505,7 @@ export default function CV() {
                                             <h2>Azure</h2>
                                             <li>Introducción a la nube con Azure
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-introduccion-azure_001.jpg"
+                                                    href="/img/Certificates/diploma-introduccion-azure_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -516,7 +517,7 @@ export default function CV() {
 
                                             <li>Curso de Administración de Servidores Linux
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-linux_001.jpg"
+                                                    href="/img/Certificates/diploma-linux_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -526,7 +527,7 @@ export default function CV() {
 
                                             <li>Fundamentos de Ingeniería de Software
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-ingenieria_001.jpg"
+                                                    href="/img/Certificates/diploma-ingenieria_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">
@@ -536,7 +537,7 @@ export default function CV() {
 
                                             <li>Curso de Introducción a la Terminal y Línea de comandos
                                                 <a className="image-link"
-                                                    href="./img/certificates/diploma-terminal_001.jpg"
+                                                    href="/img/Certificates/diploma-terminal_001.jpg"
                                                     alt="">
                                                 </a>
                                                 <a className="">

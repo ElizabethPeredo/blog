@@ -1,6 +1,9 @@
-/*====================
-    **NAVBAR **
-====================*/
+ /* ====================
+*NAVBAR **
+==================== */
+:root{
+  --height-navbar:3rem;
+}
 navbar {
   color: var(--color11);
   margin-bottom: 5rem;
@@ -19,7 +22,7 @@ navbar {
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  height: 3rem;
+  height: var(--height-navbar);
   padding: 0.5rem 1rem;
 }
 
