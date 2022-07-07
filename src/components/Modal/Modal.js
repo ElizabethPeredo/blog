@@ -3,8 +3,8 @@ import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
 
-export default function Footer() {
-    function Modal() {
+export default function Modal() {
+    function ModalImg() {
         if (typeof window === 'object') {
             document.querySelectorAll("img").forEach((img) => {
                 img.className += " myImages";
@@ -27,18 +27,21 @@ export default function Footer() {
                 }
             }
 
-            var span = document.getElementsByClassName("close")[0];
+            window.onload = function () {
+                const btnClose = document.getElementsByClassName("closeImg")[0];
 
-            span.onclick = function () {
-                modal.style.display = "none";
+                btnClose.onclick = function click() {
+                    modal.style.display = "none";
+                }
             }
-        }
+        };
     }
-    Modal();
+
+    ModalImg();
     return (
         <>
             <div id="modal_img" className="modal__container">
-                <span className="close">&times;</span>
+                <span className="closeImg">&times;</span>
                 <img className="modal__container-img" id="img01" />
                 <div id="modal_caption"></div>
             </div>

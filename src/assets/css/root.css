@@ -134,6 +134,7 @@
   --color2: #a4e54b;
   --color11: white;
   --color22: #2c2c2c;
+  --color-code: #00ff9d;
   --color-nav: var(--black);
   /* *BACKGROUND* */
   --bg-navbar: var(--white);
@@ -151,6 +152,7 @@
   --color2: #a4e54b;
   --color11: white;
   --color22: #2c2c2c;
+  --color-code: #03e9fa;
   --color-nav: var(--black);
 
   --bg-navbar: var(--white);

@@ -11,7 +11,7 @@ import '../src/assets/css/prism-themes/prism-z-touch.css'
 import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
-
+ 
   return (
     <>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js" />

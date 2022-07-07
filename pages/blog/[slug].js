@@ -51,13 +51,19 @@ export default function PostPage({
             </section>
 
             <PostContainer>
+            <Modal/>
                 <section dangerouslySetInnerHTML=
                     {{ __html: marked.parse(content), }}
                 >
+            
                 </section>
+                <hr/>
+                
+                
             </PostContainer>
+            
             <BtnBuyMeCoffee />
-            <Modal/>
+            
         </>
     )
 }

@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 export default function FilterCard() {
-    filterSelection("all")
-
     function filterSelection(c) {
         if (typeof window === 'object') {
             let x, i;
@@ -15,7 +13,6 @@ export default function FilterCard() {
                 }
             }
         }
-        
     }
 
     function AddClass(element, name) {
@@ -39,6 +36,8 @@ export default function FilterCard() {
         element.className = arr1.join(" ");
     }
 
+    filterSelection("all")
+    
     return (
         <>
             <div id="btnContainer">
