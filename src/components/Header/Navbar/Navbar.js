@@ -44,7 +44,7 @@ export default function Navbar() {
                 <Link href={{ pathname: "/" }}>
                   <a className="">Home</a>
                 </Link>
-                <Link href={{ pathname: "/blog" }}>
+                <Link href={{ pathname: "/Blog" }}>
                   <a className="">Blog</a>
                 </Link>
                 <Link href={{ pathname: "/CV" }}>
