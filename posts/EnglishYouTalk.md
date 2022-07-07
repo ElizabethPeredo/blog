@@ -27,8 +27,6 @@ cover_image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 
 </div>
 
-<div>
-
 # UNIT1
 
 ## 1.-Objetos y el artículo “a”
@@ -430,9 +428,9 @@ This, that, this, that, this, that
 
 Puedes incluso ir a andar o a correr repitiendo a cada paso. Pero eso sí, asegúrate de que pronuncias correctamente sobre todo el sonido /th/ y la vocal de /this/ que suena a /e/.
 
-</div>
 
-<div>
+
+
 
 # UNIT2
 
@@ -756,9 +754,9 @@ Sister, paper, sister, paper, sister, paper,….
 
 A partir de ahora, cada vez que tengas problemas con esta letra, repite estas palabras unas cuantas veces y luego repites la nueva palabra. Verás cómo te suena mejor.
 
-</div>
 
-<div>
+
+
 
 # UNIT3
 
@@ -1246,9 +1244,9 @@ Buy it (como bayeta en español, pero quitando la A) /báiet/
 
 Este es el truco más sencillo para sacar el sonido de la i corta de forma natural, y comparado con el español. Se trata de recurrir a estos recursos cada vez que surja el problema.
 
-</div>
 
-<div>
+
+
 
 # UNIT4
 
@@ -1577,9 +1575,9 @@ www.audioslibros.youtalkonline.com
 
 Clave de descarga: f7n2ih
 
-</div>
 
-<div>
+
+
 
 # UNIT5
 
@@ -2039,9 +2037,9 @@ I’m holding it→ /amhóuldenet/
 
 Are you staying?→ /aRiustéien/ I’m a student→/aimastúrent/ You’re not a student→ /ioRnárasturent/
 
-</div>
 
-<div>
+
+
 
 # UNIT6
 
@@ -2513,9 +2511,9 @@ Happy House
 
 Primero una vez, lentamente, y luego varias seguidas hasta que puedas hacerlo más rápidamente y sin que salga el sonido /J/ del castellano.
 
-</div>
 
-<div>
+
+
 
 # UNIT7
 
@@ -3291,9 +3289,9 @@ Audio descargable
 
 Recuerda descargarte y escuchar el audio mp3 que contiene este libro. Más de 8 horas de locución en inglés, con contenido extra, y donde te damos los mejores trucos del Método YouTalk.
 
-</div>
 
-<div>
+
+
 
 # UNIT8
 
@@ -3807,9 +3805,9 @@ www.audioslibros.youtalkonline.com
 
 Clave de descarga: f7n2ih
 
-</div>
 
-<div>
+
+
 
 # UNIT9
 
@@ -4161,9 +4159,9 @@ orden y que está igualmente arriba.
 
 Sube la escalera→come up Vuelve a bajar→ go back down Vuelve a subir→ come back up Vuelve a bajar→ go back down
 
-</div>
 
-<div>
+
+
 
 # UNIT10
 
@@ -4403,9 +4401,9 @@ www.audioslibros.youtalkonline.com
 
 Clave de descarga: f7n2ih
 
-</div>
 
-<div>
+
+
 
 # UNIT11
 
@@ -4717,9 +4715,9 @@ Practica con las siguientes frases. Las palabras en negrita serán las que tendr
 
 Tom sees Mary→ He sees her Betty knows Bob→ She knows him Ann and Ed call the kids→ They call them Jan sells some apples→ She sells some Jean sells cars→ She sells them Bill and I fix the bikes→ We fix them Dogs eat bones→ They eat them The girls have a choice→ They have one The kids like the candy→They like it
 
-</div>
 
-<div>
+
+
 
 # UNIT12
 
@@ -5179,9 +5177,9 @@ www.audioslibros.youtalkonline.com
 
 Clave de descarga: f7n2ih
 
-</div>
 
-<div>
+
+
 
 # UNIT13
 
@@ -5553,9 +5551,9 @@ www.audioslibros.youtalkonline.com
 
 Clave de descarga: f7n2ih
 
-</div>
 
-<div>
+
+
 
 # UNIT14
 
@@ -5747,9 +5745,9 @@ Clave de descarga: f7n2ih
 
 * * *
 
-</div>
 
-<div>
+
+
 
 # UNIT15
 

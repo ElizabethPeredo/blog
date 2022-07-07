@@ -464,6 +464,9 @@ blockquote * {
   background-color: var(--color1);
   color: var(--color11);
 }
+.card.item *:hover{
+  color: var(--color2);
+}
 .card.subitem {
   box-shadow: none;
   border-radius: 2em;
